@@ -5,8 +5,10 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the syntax for writing a template literal?
+  `${var}`
 
 - What is "string interpolation"?
+  add variables together into one string
 
 ## Notes
 

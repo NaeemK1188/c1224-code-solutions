@@ -33,7 +33,7 @@ const pet: Pet = {
 const vehicle: Vehicle = {
   make: 'SoroSuub',
   model: 'Landspeeder',
-  year: Number('20BBY'),
+  year: '20BBY',
 };
 
 const fullName: string = `${student.firstName} ${student.lastName}`;

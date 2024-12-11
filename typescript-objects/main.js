@@ -11,7 +11,7 @@ const pet = {
 const vehicle = {
   make: 'SoroSuub',
   model: 'Landspeeder',
-  year: Number('20BBY'),
+  year: '20BBY',
 };
 const fullName = `${student.firstName} ${student.lastName}`;
 console.log(`value of fullName: ${fullName}`);

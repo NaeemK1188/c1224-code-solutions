@@ -6,7 +6,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is the purpose of an HTML `form` element?
 
-  for user interaction with the web browser
+  for user interaction with the web browser. collecting user inputs
 
 - Give five examples of form control elements.
 

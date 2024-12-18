@@ -15,9 +15,9 @@
   <body>
     <h1>Coding Form!</h1>
     <form>
-      <label>Email</label>
+      <label for="email">Email</label>
       <br />
-      <input type="email" name="email" required />
+      <input type="email" id="email" name="email" required />
       <br />
       <label>Why is Coding Cool?</label>
       <br />
@@ -28,17 +28,31 @@
         <option value="powerful">Because it's powerful</option>
       </select>
       <p>Favorite Language (choose one)</p>
-      <label><input type="radio" name="interest" value="HTML" />HTML</label>
-      <label><input type="radio" name="interest" value="CSS" />CSS</label>
-      <label
+      <label for="radioButton1"
         ><input
           type="radio"
+          id="radioButton1"
+          name="interest"
+          value="HTML" />HTML</label
+      >
+      <label for="radioButton2"
+        ><input
+          type="radio"
+          id="radioButton2"
+          name="interest"
+          value="CSS" />CSS</label
+      >
+      <label for="radioButton3"
+        ><input
+          type="radio"
+          id="radioButton3"
           name="interest"
           value="JavaScript" />JavaScript</label
       >
       <p>Would you like to sign up for more information?</p>
-      <label
-        ><input type="checkbox" name="check" value="Signup" />Sign me up!</label
+      <label for="checkBox"
+        ><input type="checkbox" id="checkBox" name="check" value="Signup" />Sign
+        me up!</label
       >
       <br />
       <label>Comments</label>

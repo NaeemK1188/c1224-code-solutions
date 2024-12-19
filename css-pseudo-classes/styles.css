@@ -1,0 +1,20 @@
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* table, th, td {
+  border: 1px solid;
+  ;
+
+} */
+
+thead > tr {
+  background-color: black;
+  color: white;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgb(226, 222, 222);
+}

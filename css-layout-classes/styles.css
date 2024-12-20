@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: sans-serif;
 }
 
@@ -6,7 +7,12 @@ h1 {
   margin-left: 100px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
+  /* margin 0 auto */
   max-width: 800px; /* add these properties to center the container in the webpage */
   margin-left: auto; /* add these properties to center the container in the webpage */
   margin-right: auto; /* add these properties to center the container in the webpage */
@@ -14,4 +20,12 @@ h1 {
 
 .row {
   display: flex; /* so that children column classes flow horizontally */
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+img {
+  width: 100%;
 }

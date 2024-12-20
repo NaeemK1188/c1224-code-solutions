@@ -6,11 +6,11 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Why do two div elements "vertically stack" on one another by default?
 
-  because its a block base, where each block is above another one
+  because its a block base, where each block is above another one or because block level element
 
 - What is the default `flex-direction` of an element with `display: flex`?
 
-  horizontal direction
+  horizontal direction or row
 
 - What are the three primary components of a page layout? (Which helper classes do you need?)
 
@@ -23,6 +23,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the purpose of a **container**?
 
   contain the layout page or ( rows[n-columns]) => where each row has different number of columns
+  wrap the entire layout
 
 ## Notes
 

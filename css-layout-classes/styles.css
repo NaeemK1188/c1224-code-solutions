@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-left: 100px;
+}
+
+.container {
+  max-width: 800px; /* add these properties to center the container in the webpage */
+  margin-left: auto; /* add these properties to center the container in the webpage */
+  margin-right: auto; /* add these properties to center the container in the webpage */
+}
+
+.row {
+  display: flex; /* so that children column classes flow horizontally */
+}

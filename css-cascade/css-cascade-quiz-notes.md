@@ -6,7 +6,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What are the four components of "the Cascade".
 
-  Inheritance, Source order, Specificity, important!
+  Inheritance, Source order, Specificity, !important
 
 - What does the term "source order" mean with respect to CSS?
 

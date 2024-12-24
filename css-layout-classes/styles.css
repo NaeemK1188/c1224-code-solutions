@@ -3,10 +3,6 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  margin-left: 100px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -23,7 +19,19 @@ h1 {
 }
 
 .column-one-third {
-  width: calc(100% / 3);
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-two-third {
+  flex-basis: calc(200% / 3);
 }
 
 img {

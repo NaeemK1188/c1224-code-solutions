@@ -1,0 +1,58 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px; /* unnecessary */
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column-one-half > h1 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  color: rgb(19, 19, 121);
+}
+
+.navigation-links > h2 {
+  font-family: Avenir, serif;
+  font-size: 16px;
+  color: rgb(189, 188, 188);
+  cursor: pointer;
+  margin-right: 45px; /* pushes all h2 to the left */
+}
+
+.column-one-half {
+  flex-basis: 50%;
+}
+
+.full-column {
+  flex-basis: 100%;
+}
+
+.full-column > hr {
+  border-color: rgba(248, 248, 248, 0.345);
+  margin-top: -20px; /* pushing the line to the top instead of going down */
+  margin-left: -80px;
+  margin-right: -80px;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-links > h2:hover {
+  color: black;
+}
+
+.Contact-Us {
+  background-color: rgb(19, 19, 121);
+  color: rgba(255, 255, 255, 0.889);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  padding: 0 15px;
+}

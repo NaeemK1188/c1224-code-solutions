@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 20px; /* unnecessary */
+  padding: 50px 20px; /* unnecessary */
 }
 
 .row {
@@ -14,6 +14,14 @@
   font-size: 50px;
   font-weight: lighter;
   color: rgb(19, 19, 121);
+}
+
+.column-one-half > img {
+  padding: 0;
+  width: 175px;
+  height: auto;
+  filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(190deg)
+    brightness(50%) contrast(80%);
 }
 
 .navigation-links > h2 {
@@ -34,7 +42,7 @@
 
 .full-column > hr {
   border-color: rgba(248, 248, 248, 0.345);
-  margin-top: -20px; /* pushing the line to the top instead of going down */
+  margin-top: 15px; /* pushing the line to the top instead of going down */
   margin-left: -80px;
   margin-right: -80px;
 }
@@ -49,7 +57,7 @@
 }
 
 .Contact-Us {
-  background-color: rgb(19, 19, 121);
+  background-color: rgba(26, 26, 85, 0.868);
   color: rgba(255, 255, 255, 0.889);
   border-radius: 5px;
   cursor: pointer;

@@ -24,6 +24,36 @@
     brightness(50%) contrast(80%);
 }
 
+.column-one-half > h1 {
+  font-family: 'Tiempos Headline', sans-serif;
+  color: rgba(128, 128, 128, 0.984);
+  font-weight: lighter;
+  position: relative;
+  top: 25px;
+}
+
+.column-one-half > p {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.747);
+  font-size: 15px;
+  font-weight: bolder;
+  position: relative;
+  top: 25px;
+}
+
+.column-one-half > button {
+  font-size: larger;
+  font-family: Avenir, serif;
+  padding: 14px 45px;
+  border-radius: 6px;
+  background-color: rgba(26, 26, 85, 0.868);
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 350px;
+  cursor: pointer;
+}
+
 .navigation-links > h2 {
   font-family: Avenir, serif;
   font-size: 15px;

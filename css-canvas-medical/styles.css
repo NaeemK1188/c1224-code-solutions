@@ -26,7 +26,7 @@
 
 .navigation-links > h2 {
   font-family: Avenir, serif;
-  font-size: 16px;
+  font-size: 15px;
   color: rgb(189, 188, 188);
   cursor: pointer;
   margin-right: 45px; /* pushes all h2 to the left */
@@ -48,7 +48,7 @@
   position: absolute;
   font-weight: normal;
   top: 220px;
-  left: 670px; /* starts from thr beginning of the webpage
+  left: 670px; /* starts from the beginning of the webpage
                 from the left */
   filter: brightness(95%);
 }
@@ -75,6 +75,60 @@
   left: 670px;
   top: 600px;
   cursor: pointer;
+}
+
+.sub-container {
+  width: 1300px;
+  height: 500px;
+  background-size: cover;
+  background-color: rgb(248, 246, 246);
+  position: relative;
+  right: 80px;
+}
+
+.sub-container > h1 {
+  font-family: 'Tiempos Headline', serif;
+  color: rgba(128, 128, 128, 0.984);
+  font-weight: lighter;
+  position: absolute;
+  top: 50px;
+  left: 490px;
+}
+
+.sub-container > p {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.984);
+  position: absolute;
+  top: 110px;
+  left: 450px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align-last: center;
+  transform: scaleX(1.13);
+}
+
+.sub-container > .primary-care-left {
+  position: relative;
+  top: 250px;
+  left: 220px;
+  line-height: 35px;
+}
+
+.primary-care-left > h3 {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.859);
+}
+
+.sub-container > .primary-care-right {
+  position: relative;
+  top: 88px;
+  left: 800px;
+  line-height: 35px;
+}
+
+.primary-care-right > h3 {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.859);
 }
 
 /* .ads { using positioning assignment approach, but mine is better

@@ -54,6 +54,10 @@
   cursor: pointer;
 }
 
+.column-one-half > button:active {
+  background-color: black;
+}
+
 .navigation-links > h2 {
   font-family: Avenir, serif;
   font-size: 15px;
@@ -105,6 +109,10 @@
   left: 670px;
   top: 600px;
   cursor: pointer;
+}
+
+.Get-Started:active {
+  background-color: black;
 }
 
 .sub-container {
@@ -219,6 +227,10 @@
   cursor: pointer;
   font-size: medium;
   padding: 0 15px;
+}
+
+.Contact-Us:active {
+  background-color: black;
 }
 
 /* .overlay {

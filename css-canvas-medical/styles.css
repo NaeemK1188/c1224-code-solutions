@@ -9,12 +9,12 @@
   align-items: center;
 }
 
-.column-one-half > h1 {
+/* .column-one-half > h1 {
   font-family: 'Tiempos Headline', sans-serif;
   font-size: 50px;
   font-weight: lighter;
   color: rgb(19, 19, 121);
-}
+} */
 
 .column-one-half > img {
   padding: 0;
@@ -32,12 +32,84 @@
   margin-right: 45px; /* pushes all h2 to the left */
 }
 
+.hero-Image {
+  padding: 50px;
+  width: 1200px;
+  height: 650px;
+  filter: brightness(80%) contrast(80%);
+  position: relative;
+  right: 30px;
+}
+
+.adsTitle {
+  color: white;
+  font-size: 40px;
+  font-family: 'Tiempos Headline', serif;
+  position: absolute;
+  font-weight: normal;
+  top: 220px;
+  left: 670px; /* starts from thr beginning of the webpage
+                from the left */
+  filter: brightness(95%);
+}
+
+.adsText {
+  font-family: Avenir, serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 360px;
+  left: 670px;
+  filter: brightness(95%);
+  line-height: 28px;
+}
+
+.Get-Started {
+  font-size: larger;
+  font-family: Avenir, serif;
+  padding: 14px 45px;
+  border-radius: 6px;
+  background-color: rgba(26, 26, 85, 0.868);
+  color: white;
+  position: absolute;
+  left: 670px;
+  top: 600px;
+  cursor: pointer;
+}
+
+/* .ads { using positioning assignment approach, but mine is better
+  width: 1155px;
+  height: 600px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  position: relative;
+  top: 55px;
+  filter: brightness(80%) contrast(80%);
+
+
+} */
+
+/* .ads > img { there is no image tag to control it so its illogical to use it here
+  width: 100%; use only .ads
+  using positioning assignment approach, but mine is better
+} */
+
+/* .ads-title {using positioning assignment approach, but mine is better
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+} */
+
 .column-one-half {
   flex-basis: 50%;
 }
 
 .full-column {
   flex-basis: 100%;
+
+  /* position: relative; */
 }
 
 .full-column > hr {
@@ -64,3 +136,12 @@
   font-size: medium;
   padding: 0 15px;
 }
+
+/* .overlay {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  height: 800px;
+  width: 1000px;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+} */

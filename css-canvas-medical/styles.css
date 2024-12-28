@@ -169,6 +169,106 @@
   color: rgba(128, 128, 128, 0.859);
 }
 
+.full-column > .sub-container-two {
+  width: 1300px;
+  height: 450px;
+  background-size: cover;
+  background-color: rgb(97, 96, 96);
+  position: relative;
+  right: 80px;
+  top: 60px;
+}
+
+.full-column > .sub-container-three {
+  width: 1300px;
+  height: 150px;
+  background-size: cover;
+  background-color: rgb(248, 246, 246);
+  position: relative;
+  right: 80px;
+  top: 42px;
+}
+
+.sub-container-three > .privacy {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.896);
+  position: absolute;
+  top: 45px;
+  left: 95px;
+  cursor: pointer;
+}
+
+.sub-container-three > .contact {
+  font-family: Avenir, serif;
+  color: rgba(128, 128, 128, 0.896);
+  position: absolute;
+  left: 280px;
+  top: 45px;
+  cursor: pointer;
+}
+
+.section1 > img {
+  width: 175px;
+  position: relative;
+  top: 130px;
+  left: 100px;
+}
+
+.section1 > p {
+  font-family: Avenir, serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.884);
+  line-height: 25px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.section2 {
+  width: 80px;
+}
+
+.section2 > h3 {
+  font-family: Avenir, serif;
+  color: rgba(255, 255, 255, 0.884);
+  position: relative;
+  left: 700px;
+  top: 70px;
+  font-weight: lighter;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.section3 > h3 {
+  font-family: Avenir, serif;
+  color: rgba(255, 255, 255, 0.884);
+  position: relative;
+  left: 1000px;
+  top: -70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.section3 {
+  width: 140px;
+}
+
+.section2 > h3:hover {
+  color: black;
+}
+
+.section3 > h3:hover {
+  color: black;
+}
+
+.contact:hover {
+  color: black;
+}
+
+.privacy:hover {
+  color: black;
+}
+
 /* .ads { using positioning assignment approach, but mine is better
   width: 1155px;
   height: 600px;

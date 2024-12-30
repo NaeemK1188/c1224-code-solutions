@@ -7,5 +7,5 @@ function countdown(num) {
   }
   return numArr;
 }
-const input = countdown(5);
+const input = countdown(2);
 console.log(input);

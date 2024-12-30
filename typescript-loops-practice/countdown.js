@@ -1,13 +1,11 @@
+'use strict';
 /* exported countdown */
-function countdown(num: number): number[] {
-  const numArr: number[] = [];
-
+function countdown(num) {
+  const numArr = [];
   for (let i = num; i >= 0; i--) {
     numArr.push(i);
   }
-
   return numArr;
 }
-
-const input: number[] = countdown(2);
+const input = countdown(5);
 console.log(input);

@@ -4,7 +4,7 @@ function filterOutNulls(arrAny: any[]): any[] {
   const newArr: any[] = [];
   for (let i = 0; i < arrAny.length; i++) {
     if (arrAny[i] == null) {
-      // false never executed
+      // if false, it's never executed
       continue;
     } else {
       newArr.push(arrAny[i]);

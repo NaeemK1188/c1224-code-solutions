@@ -1,2 +1,15 @@
 'use strict';
 /* exported oddOrEven */
+function oddOrEven(arrNum) {
+  const arrStr = [];
+  for (let i = 0; i < arrNum.length; i++) {
+    if (arrNum[i] % 2 === 0) {
+      arrStr.push('even');
+    } else {
+      arrStr.push('odd');
+    }
+  }
+  return arrStr;
+}
+const input12 = oddOrEven([1, 2, 3]);
+console.log(input12);

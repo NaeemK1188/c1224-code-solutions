@@ -1,5 +1,6 @@
+'use strict';
 /* exported head */
-function head(arrAny: unknown[]): unknown {
+function head(arrAny) {
   for (let i = 0; i < arrAny.length; i++) {
     if (i === 0) {
       return arrAny[i];

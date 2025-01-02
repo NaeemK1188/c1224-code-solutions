@@ -8,3 +8,6 @@ function head(arrAny: unknown[]): unknown {
     }
   }
 }
+
+const input: unknown = head(['foo', 'bar', 'baz']);
+console.log(input);

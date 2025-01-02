@@ -9,3 +9,5 @@ function head(arrAny) {
     }
   }
 }
+const input = head(['foo', 'bar', 'baz']);
+console.log(input);

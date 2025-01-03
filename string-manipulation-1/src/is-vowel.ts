@@ -12,7 +12,7 @@ function isVowel(str: string): boolean {
   } else if (str === 'i' || str === 'I') {
     return true;
   } else {
-    return false; // after checking all characters and didn't find any vowels, it returns false
+    return false;
   }
 }
 

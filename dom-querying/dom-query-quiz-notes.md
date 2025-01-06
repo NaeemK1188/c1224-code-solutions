@@ -7,10 +7,13 @@ Answer the following questions in the provided markdown file before turning in t
 - Why do we log things to the console?
 
   its like accessing the things using programming language such as javascript
+  for debug or see the value or what is storing. to see what is going wrong to see the data
 
 - What is a "model"?
 
   its the model of html element in the webpage
+  structure of our webpage.
+  recreation of something exists
 
 - Which "document" is being referred to in the phrase Document Object Model?
 
@@ -19,6 +22,8 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the word "object" referring to in the phrase Document Object Model?
 
   each element in the webpage is an object
+  how each element is recreated as an element or as a model or recreation of html element
+  document is a whole model we can create
 
 - What is a DOM Tree?
 
@@ -35,7 +40,9 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Why might you want to assign the return value of a DOM query to a variable?
 
-  to save or hold the return value in order to manipulate using programming language ;ike JS
+  to save or hold the return value in order to manipulate using programming language like JS
+  Because of this, it is generally a best practice to store DOM element references in a variable.
+  Once the reference has been saved in a variable, accessing the element again does not require another search.
 
 - What `console` method allows you to inspect the properties of a DOM element object?
 

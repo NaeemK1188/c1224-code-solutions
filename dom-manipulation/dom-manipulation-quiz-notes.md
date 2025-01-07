@@ -6,17 +6,31 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is the `className` property of element objects?
 
+  its the property of the Dom element that allows us to manipulate the CSS classes applied to an element
+
 - How do you update the CSS class attribute of an element using JavaScript?
+
+  using setter functionality: DomElement.className = newClass1
 
 - What is the `textContent` property of element objects?
 
+  it's the DOM element property represents the text content of an element. It allows us to manipulate the text content
+
 - How do you update the text within an element using JavaScript?
+
+  using setter functionality DomElement.textContent = "new text"
 
 - Is the `event` parameter of an event listener callback always useful?
 
+  The Event is a global object. The event parameter can be omitted, but its important to be used locally
+
 - Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
 
+  More complicated, is to manipulate the color. The counter number issue is trivial
+
 - Why is storing information about a program in variables better than only storing it in the DOM?
+
+  In order to manipulate the DOM element or control its behavior or makes it dynamically changes
 
 ## Notes
 

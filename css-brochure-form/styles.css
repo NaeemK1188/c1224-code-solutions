@@ -1,0 +1,70 @@
+div {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: rgb(216, 98, 98);
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+}
+
+form {
+  color: rgb(40, 39, 39);
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  font-size: 75%;
+}
+
+input::placeholder {
+  opacity: 0.5;
+}
+
+input {
+  padding-right: 9%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 0.3%;
+  border-radius: 6px;
+  border-width: 0.052cm;
+  border-color: rgb(231, 230, 230);
+  width: 420px;
+}
+
+label {
+  padding-left: 0.4%;
+}
+
+label.Engineers {
+  width: ;
+}
+
+select {
+  background-color: rgb(246, 241, 241);
+  opacity: 0.8;
+  font-size: 100%;
+  border-radius: 4px;
+  padding-right: 8.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 0.3%;
+  border-width: 0.052cm;
+  border-color: rgb(195, 194, 194);
+  width: 420px;
+}
+
+button {
+  background-color: rgb(216, 98, 98);
+  color: white;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  border-radius: 15px;
+  border-width: 0.052cm;
+  border-color: rgb(216, 98, 98);
+  margin-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+  margin-left: 49%;
+}

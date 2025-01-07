@@ -12,16 +12,18 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the purpose of events and event handling?
 
   1.Events: are the interactions of users with the webpage.
-  2.even-handling: handling the interaction of the user with html using programming language and output the result to thr console
-  makes our page more dynamic
-  handle the event in our webpage
+  2.even-handling: handling the interaction of the user with html using programming language and output the result to the console
+  makes our page more dynamic, or its just to handle the event in our webpage
 
 - Are all possible parameters required to use a JavaScript method or function?
 
-  For regular method we can use function without parameters
-  for listeners its required to add callback function and events(the name of the event and the event to listen for)
+  1.For regular method we can use function without parameters
+  2.For event listeners, its required to add callback function and events(the name of the event(event type) or the event to listen for)
 
 - What method of element objects lets you set up a function to be called when a specific type of event occurs?
+
+  (Element Object is an object that is exists in html file, not a regular object. Function to be called, is the callback function, or Arrow
+  anonymous function)
 
   .addEventListener
 
@@ -31,23 +33,21 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What object is passed into an event listener callback when the event fires?
 
-  event object, we can listen to an object
+  event object. (event listener listen to an object event)
 
 - What is the `event.target`? If you weren't sure, how would you check? Where could you get more information about it?
 
-  event.target its the value of the event object. is the element that triggered the event.
+  event.target is the value of the event object. (Event is the element that triggered by the user interaction)
 
 - What is the difference between these two snippets of code?
   ```js
   element.addEventListener('click', handleClick);
   ```
-  function definition, waiting the
-  passing a reference of function
+  Function definition that is waiting the passing a reference of function(handleClick)
   ```js
   element.addEventListener('click', handleClick());
   ```
-  calling the function and taking the return value.
-  its not returning anything just undefined because its a void
+  Calling the function and taking the return value on the spot. Its not returning anything just undefined because it returns nothing(void)
 
 ## Notes
 

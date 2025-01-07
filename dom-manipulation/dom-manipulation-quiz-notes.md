@@ -26,7 +26,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
 
-  More complicated, is to manipulate the color. The counter number issue is trivial
+  Missing counter number will make it complicated because we cannot change the color of the button clicked
 
 - Why is storing information about a program in variables better than only storing it in the DOM?
 

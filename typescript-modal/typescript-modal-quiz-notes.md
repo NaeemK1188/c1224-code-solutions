@@ -10,16 +10,18 @@ Answer the following questions in the provided markdown file before turning in t
 
 - How do you display a modal dialog?
 
-  using display method showModal() or display as a model
+  using display method close() hide or minimize
 
 - How do you hide a modal dialog?
 
-  using showModel() because we can hide the window as a tab
+  using showModel() dialog model box because we can hide the window as actual model. no interaction forces the user
+  to deal with pop up
 
 - What is the difference between the `showModal` & `show` methods?
 
   1. showModal() display as a window
-  2. show() display as dialog box
+  2. show() display as dialog box no restriction no backdrop or we can interact with any or between multiple thing
+     not forcing user to interact with the dialog box
 
 ## Notes
 

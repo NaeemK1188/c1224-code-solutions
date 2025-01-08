@@ -1,9 +1,42 @@
-interface Pokemon
-{
+interface Pokemon {
   number: string;
   name: string;
   description: string;
   imageUrl: string;
+}
+
+function renderPokemon(pokemon: Pokemon): HTMLDivElement {
+  const $secondGrandParentDiv = document.createElement('div');
+  $secondGrandParentDiv.setAttribute('class', 'column-third');
+  // document.body.appendChild($secondGrandParentDiv);
+  // $secondGrandParentDiv.className = 'column-third';
+  // console.log($secondGrandParentDiv);
+  const $firstGrandParentDiv = document.createElement('div');
+  $firstGrandParentDiv.setAttribute('class', 'pokemon-card');
+  $secondGrandParentDiv.appendChild($firstGrandParentDiv);
+
+  const $imgChildFirst = document.createElement('img');
+  $imgChildFirst.setAttribute('src', pokemon.imageUrl);
+  $firstGrandParentDiv.appendChild($imgChildFirst);
+
+  const $divChildFirst = document.createElement('div');
+  $divChildFirst.setAttribute('class', 'pokemon-card-text');
+  $firstGrandParentDiv.appendChild($divChildFirst);
+
+  const $h2ChildParent = document.createElement('h2');
+  $h2ChildParent.textContent = 'Pikachu';
+  $divChildFirst.appendChild($h2ChildParent);
+
+  const $h3ChildParent = document.createElement('h3');
+  $h3ChildParent.textContent = '#025';
+  $divChildFirst.appendChild($h3ChildParent);
+
+  const $pChildParent = document.createElement('p');
+  $pChildParent.textContent = `Pikachu that can generate powerful electricity have cheek sacs that
+                               are extra soft and super stretchy.`;
+  $divChildFirst.appendChild($pChildParent);
+
+  return $secondGrandParentDiv;
 }
 
 const pokedex: Pokemon[] = [
@@ -69,5 +102,22 @@ const pokedex: Pokemon[] = [
     description:
       'It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.',
     imageUrl: 'images/blastoise.png',
-  }
+  },
 ];
+
+// const $secondGrandParentDiv = document.createElement('div');
+// $secondGrandParentDiv.setAttribute('class', 'column-third');
+// // $secondGrandParentDiv.className = 'column-third';
+// console.log($secondGrandParentDiv);
+
+const $rowDivElement = document.querySelector('.row');
+
+if (!$rowDivElement) {
+  throw new Error('$rowDivElement query failed');
+}
+
+for (let i = 0; i < pokedex.length; i++) {
+  $rowDivElement.appendChild(renderPokemon(pokedex[i]));
+}
+
+// console.log(renderPokemon(pokedex[2]));

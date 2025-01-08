@@ -15,14 +15,13 @@ function renderPokemon(pokemon) {
   $divChildFirst.setAttribute('class', 'pokemon-card-text');
   $firstGrandParentDiv.appendChild($divChildFirst);
   const $h2ChildParent = document.createElement('h2');
-  $h2ChildParent.textContent = 'Pikachu';
+  $h2ChildParent.textContent = pokemon.name;
   $divChildFirst.appendChild($h2ChildParent);
   const $h3ChildParent = document.createElement('h3');
-  $h3ChildParent.textContent = '#025';
+  $h3ChildParent.textContent = pokemon.number;
   $divChildFirst.appendChild($h3ChildParent);
   const $pChildParent = document.createElement('p');
-  $pChildParent.textContent = `Pikachu that can generate powerful electricity have cheek sacs that
-                               are extra soft and super stretchy.`;
+  $pChildParent.textContent = pokemon.description;
   $divChildFirst.appendChild($pChildParent);
   return $secondGrandParentDiv;
 }

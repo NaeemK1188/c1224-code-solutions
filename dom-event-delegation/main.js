@@ -1,16 +1,14 @@
+'use strict';
 const $taskList = document.querySelector('.task-list');
 // console.log($taskList);
-
 if (!$taskList) {
   throw new Error('$taskList does not exist');
 }
-
-$taskList.addEventListener('click', (event: Event) => {
-  const eventTarget = event.target as HTMLElement; // eventTarget does not exist outside the callback function, but it has no return
+$taskList.addEventListener('click', (event) => {
+  const eventTarget = event.target; // eventTarget does not exist outside the callback function, but it has no return
   console.log('event.target:', eventTarget);
   console.log('event.target.tagName:', eventTarget.tagName);
   // console.log(typeof eventTarget.tagName);
-
   if (eventTarget.tagName === 'BUTTON') {
     console.log(
       'closest .task-list-item',

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  /* margin 0 auto */
+  max-width: 800px; /* add these properties to center the container in the webpage */
+  margin-left: auto; /* add these properties to center the container in the webpage */
+  margin-right: auto; /* add these properties to center the container in the webpage */
+}
+
+.row {
+  display: flex; /* so that children column classes flow horizontally */
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-two-third {
+  flex-basis: calc(200% / 3);
+}
+
+img {
+  width: 100%;
+}

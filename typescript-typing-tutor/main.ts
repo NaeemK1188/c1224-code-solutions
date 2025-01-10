@@ -8,10 +8,32 @@
 // span[i + 1].className = 'dark';
 
 let index: number = 0;
+// let temp:string = "";
 
 const $spans = document.querySelectorAll('span');
 
-// its wrong it doesn't listen for the span element
+document.addEventListener('keydown', (event: KeyboardEvent) => {
+  // console.log(event.key);
+  // console.log($spans[index].textContent);
+  // console.log(event.code);
+  //  else if (index >= $spans.length)
+  //  {
+  //    return;
+  //  }
+
+  if (event.key === $spans[index].textContent) {
+    // $spans[index].classList.toggle('.char.green'); how to use toggle to switch classes ?
+    $spans[index].className = 'char green';
+    index = index + 1;
+  } else {
+    // $spans[index].classList.toggle('.char.red'); // how to use toggle to switch classes ?
+    $spans[index].className = 'char red'; // changing the name of the class
+  }
+
+  // index = index + 1; // causing the index to move to the next character anyway if its right or wrong
+});
+
+// its wrong it doesn't listen for the span element using forEach
 // $spans.forEach(span =>
 //   span.addEventListener("keydown", (event:KeyboardEvent) => {
 //   console.log(event.key)
@@ -21,10 +43,3 @@ const $spans = document.querySelectorAll('span');
 
 //   console.log(entry.textContent);
 // }
-
-document.addEventListener('keydown', (event: KeyboardEvent) => {
-  console.log(event.key);
-  console.log($spans[index].textContent);
-  // console.log(event.code);
-  index = index + 1;
-});

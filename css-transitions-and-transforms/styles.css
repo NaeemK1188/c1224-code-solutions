@@ -15,6 +15,9 @@ section {
   justify-content: space-evenly;
 }
 
+/* adding transition at the primary ruleset not the one with pseudo classes */
+
+/* add transform effects in :pseudo classes and then put it inside the transition in primary ruleset */
 .custom-button {
   padding: 0.5rem 1.5rem;
   border: none;
@@ -23,12 +26,30 @@ section {
   color: white;
   background-color: blue;
   cursor: pointer;
+
+  /* all properties that can transition or apply to all elements */
+
+  /* what the all is doing here regarding the buttons ? */
+
+  /* applying to any custom-button */
+  transition: all 0.5;
+}
+
+/* when the user hovers their mouse over them: */
+
+/* the animation effects will happens when interaction occurs using pseudo-classes */
+.custom-button:hover {
+  background-color: red;
+  transform: rotate(3deg);
 }
 
 .card-wrapper {
   text-align: center;
 }
 
+/* div or container that the image is setting in  */
+
+/* adding transition at the primary ruleset */
 .card {
   max-width: 18rem;
   padding: 0.5rem;
@@ -37,7 +58,25 @@ section {
   border-radius: 0.25rem;
   background-color: white;
   cursor: pointer;
+
+  /* starting scale is at 1 initially */
+
+  /* we can apply it in transition because its a property */
+
+  /* gets bigger in the transition because of adding animation  */
   transform: scale(1);
+
+  /* its not going to cause effect when scale(1) because the meta view is 1, so it stays the same
+  change it to more than 1 */
+
+  /* using all for all properties that can be changed like (*) */
+
+  /* 2s is the duration here the animations happening  */
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card > img {

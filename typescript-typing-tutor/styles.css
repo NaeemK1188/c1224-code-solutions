@@ -21,20 +21,31 @@ body {
 
 /* default state */
 .char.dark {
-  text-decoration: underline;
-  text-underline-offset: 15px;
+  /* text-decoration: underline; */
+
+  /* we added rge border bottom only in char black, so the next character will have the underline in in
+  call back */
+  border-bottom: 5px solid black;
+
+  /* padding-bottom: 10px; increases or adding space the content and the border */
+
+  /* text-underline-offset: 15px; */
 }
 
 /* correct state */
 .char.green {
   color: rgb(3, 232, 3);
-  text-decoration: underline black;
-  text-underline-offset: 15px;
+
+  /* text-decoration: underline black; */
+
+  /* text-underline-offset: 15px; */
 }
 
 /* incorrect state */
 .char.red {
   color: red;
-  text-decoration: underline;
-  text-underline-offset: 15px;
+  border-bottom: 5px solid red;
+
+  /* text-decoration: underline;
+  text-underline-offset: 15px; */
 }

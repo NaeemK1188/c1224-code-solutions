@@ -16,14 +16,13 @@ document.addEventListener('keydown', (event: KeyboardEvent) => {
   // console.log(event.key);
   // console.log($spans[index].textContent);
   // console.log(event.code);
-  //  else if (index >= $spans.length)
-  //  {
-  //    return;
-  //  }
+  console.log('index', index);
+  console.log('spans length', $spans.length);
 
   if (event.key === $spans[index].textContent) {
     // $spans[index].classList.toggle('.char.green'); how to use toggle to switch classes ?
     $spans[index].className = 'char green';
+    $spans[index + 1].className = 'char dark';
     index = index + 1;
   } else {
     // $spans[index].classList.toggle('.char.red'); // how to use toggle to switch classes ?

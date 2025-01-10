@@ -7,12 +7,24 @@
 // span[i].className = '';
 // span[i + 1].className = 'dark';
 
+let index: number = 0;
 
+const $spans = document.querySelectorAll('span');
 
+// its wrong it doesn't listen for the span element
+// $spans.forEach(span =>
+//   span.addEventListener("keydown", (event:KeyboardEvent) => {
+//   console.log(event.key)
+// }))
+// for (const entry of $spans.values())
+// {
 
-let index:number = 0;
+//   console.log(entry.textContent);
+// }
 
-
-const $spans = document.querySelectorAll('span')
-
-console.log($spans);
+document.addEventListener('keydown', (event: KeyboardEvent) => {
+  console.log(event.key);
+  console.log($spans[index].textContent);
+  // console.log(event.code);
+  index = index + 1;
+});

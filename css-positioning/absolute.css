@@ -39,5 +39,8 @@
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   height: 300px;
 
+  /* missing width that allows us to control the width of the overlay in inspect */
+  width: 300px;
+
   /* your code here */
 }

@@ -18,8 +18,8 @@ function handleInput(event) {
 const $inputUserName = document.querySelector("input[name='name']");
 const $inputUserEmail = document.querySelector("input[name='email']");
 const $textArea = document.querySelector('textarea');
-console.log($inputUserEmail);
-console.log($inputUserName);
+// console.log($inputUserEmail);
+// console.log($inputUserName);
 if (!$inputUserEmail || !$inputUserName || !$textArea) {
   throw new Error(
     'All $inputUserEmail, $inputUserName, and $textArea not exist'

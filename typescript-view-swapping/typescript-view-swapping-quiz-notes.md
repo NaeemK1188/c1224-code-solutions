@@ -6,15 +6,16 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is the `event.target`?
 
-  is the object element responsible for the triggered event
+  is the object element responsible for the triggered event. who actually responsible for firing the event
 
 - What is the effect of setting an element to `display: none`?
 
-  removing any existing effects from object's property
+  removing any existing effects from object's property. makes it removing it from the actual document like absolute not like visibility
+  or use visibility hidden(the content is larger still taking a space )
 
 - What does the `element.matches()` method take as an argument and what does it return?
 
-  the name of the attribute we want to check of its existence in html
+  the name of the attribute we want to check of its existence in html. or take a css selector but has to be a css
 
 - How can you retrieve the value of an element's attribute?
 
@@ -27,11 +28,11 @@ Answer the following questions in the provided markdown file before turning in t
 
 - If you were to add another tab and view to your HTML, but you didn't use event delegation, how would your TypeScript code be written instead?
 
-  i would of used forEach() to loop through and add new tab
+  i need to use eventlistener for many times. Using delegation by using parent container so we write one event listener
 
 - If you didn't use a loop to conditionally show or hide the views in the page, how would your TypeScript code be written instead?
 
-  using event delegation: as HTMElement
+  we need to have many if conditional statements
 
 ## Notes
 

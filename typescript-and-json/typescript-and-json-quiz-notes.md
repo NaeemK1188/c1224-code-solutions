@@ -7,10 +7,12 @@ Answer the following questions in the provided markdown file before turning in t
 - What is JSON?
 
   its a language that is used to interchange data between other programming languages and between client and server
+  lightweight interchange format the language whenever we want to transfer data because its already in object syntax in JS
 
 - What are serialization and deserialization?
 
   converting JSON format back to javascript object
+  process taking data structure and converting it to byte to send through the web
 
 - Why are serialization and deserialization useful?
 
@@ -18,7 +20,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - How do you serialize a data structure into a JSON string using TypeScript?
 
-  JSON.stringify(objectName)
+  JSON.stringify(objectName). easily stored and easily read by human and machines
 
 - How do you deserialize a JSON string into a data structure using TypeScript?
 

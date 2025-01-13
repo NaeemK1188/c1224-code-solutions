@@ -6,7 +6,12 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Give two examples of media features that you can query in an `@media` rule.
 
+  1.  `@media screen and (min-width)`
+  2.  `@media all and (max-width)`
+
 - Which HTML meta tag is used in mobile-responsive web pages?
+
+  `<meta>` using `content="width=device-width"`
 
 ## Notes
 

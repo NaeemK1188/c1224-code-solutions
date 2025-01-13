@@ -31,7 +31,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - If you didn't use a loop to conditionally show or hide the views in the page, how would your TypeScript code be written instead?
 
-  using event delegation: as HTMelemnt
+  using event delegation: as HTMElement
 
 ## Notes
 

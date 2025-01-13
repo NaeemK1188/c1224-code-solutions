@@ -32,6 +32,7 @@ h1 {
   top: 1px;
 }
 
+/* default color where its not selected the back ground us gray and color two */
 .tab {
   padding: 0.75rem 1.5rem 0.5rem;
   border: solid;
@@ -43,6 +44,7 @@ h1 {
   background-color: rgb(219, 219, 219);
 }
 
+/* when its active the background is white */
 .tab.active {
   padding-top: calc(0.5rem + 1px);
   border-bottom: none;
@@ -50,6 +52,7 @@ h1 {
   background-color: white;
 }
 
+/* how we use data-set in css. How we will use it if its not inside .tab.active ? */
 [data-view='html'].tab.active {
   color: rgb(241, 37, 7);
   border-top-color: rgb(241, 37, 7);

@@ -1,3 +1,4 @@
+'use strict';
 const $tabContainer = document.querySelector('.tab-container');
 // console.log($tabContainer);
 const $tabs = document.querySelectorAll('.tab');
@@ -5,15 +6,13 @@ const $tabs = document.querySelectorAll('.tab');
 // console.log($tabs[0]);
 const $views = document.querySelectorAll('.view'); // output a list of class names [view, view hidden, view hidden]
 // console.log($views);
-
 if (!$tabContainer) {
   throw new Error('$tabContainer not exists');
 }
-
 // using bubble effect instead of creating three event listeners; we create one for thr parent element
-$tabContainer.addEventListener('click', (event: Event) => {
+$tabContainer.addEventListener('click', (event) => {
   // we can use HTMLElement.if we don't use type assertion we won't be able to access .matches
-  const $eventTarget = event.target as HTMLDivElement;
+  const $eventTarget = event.target;
   const $dataView = $eventTarget.dataset.view;
   // console.log($dataView); // output the value of the dataset
   if ($eventTarget.matches('.tab')) {
@@ -22,7 +21,6 @@ $tabContainer.addEventListener('click', (event: Event) => {
   } else {
     console.log($eventTarget, 'was not clicked');
   }
-
   for (let i = 0; i < $tabs.length; i++) {
     if ($eventTarget === $tabs[i]) {
       $tabs[i].className = 'tab active';
@@ -33,7 +31,6 @@ $tabContainer.addEventListener('click', (event: Event) => {
       // $views[i].className = 'hidden';we can change the view class here instead of using dataset
     }
   }
-
   for (let i = 0; i < $views.length; i++) {
     if ($dataView === $views[i].getAttribute('data-view')) {
       $views[i].className = 'view';

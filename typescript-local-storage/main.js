@@ -1,15 +1,9 @@
 /* global todos */
 import { v4 as uuidv4 } from 'uuid';
-
-interface FormElements extends HTMLFormControlsCollection {
-  task: HTMLInputElement;
-}
-
-const $todoForm = document.querySelector('#todo-form') as HTMLFormElement;
-
-$todoForm.addEventListener('submit', (event: Event) => {
+const $todoForm = document.querySelector('#todo-form');
+$todoForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  const $formElements = $todoForm.elements as FormElements;
+  const $formElements = $todoForm.elements;
   const todo = {
     todoId: uuidv4(),
     task: $formElements.task.value,
@@ -19,12 +13,10 @@ $todoForm.addEventListener('submit', (event: Event) => {
   $todoList.appendChild(renderTodo(todo));
   $todoForm.reset();
 });
-
-const $todoList = document.querySelector('#todo-list') as HTMLUListElement;
-
-$todoList.addEventListener('change', (event: Event) => {
+const $todoList = document.querySelector('#todo-list');
+$todoList.addEventListener('change', (event) => {
   // as HTMLInputElement because user is inputting a new task
-  const $eventTarget = event.target as HTMLInputElement;
+  const $eventTarget = event.target;
   const todoId = $eventTarget.getAttribute('id');
   for (let i = 0; i < todos.length; i++) {
     // searching the existed array of todo list
@@ -33,16 +25,13 @@ $todoList.addEventListener('change', (event: Event) => {
       break; // break exists the if and the loop together
     }
   }
-
   writeTodos();
 });
-
 for (let i = 0; i < todos.length; i++) {
   const $todo = renderTodo(todos[i]);
   $todoList.appendChild($todo);
 }
-
-function renderTodo(todo: Todo): HTMLLIElement {
+function renderTodo(todo) {
   /**
    * <li class="list-group-item">
    *   <div class="form-check d-flex">
@@ -58,27 +47,21 @@ function renderTodo(todo: Todo): HTMLLIElement {
    *   </div>
    * </li>
    */
-
   const $todo = document.createElement('li');
   $todo.setAttribute('class', 'list-group-item');
-
   const $formCheck = document.createElement('div');
   $formCheck.setAttribute('class', 'form-check d-flex');
-
   const $checkbox = document.createElement('input');
   $checkbox.checked = todo.isCompleted;
   $checkbox.setAttribute('id', todo.todoId);
   $checkbox.setAttribute('type', 'checkbox');
   $checkbox.setAttribute('class', 'form-check-input');
-
   const $label = document.createElement('label');
   $label.setAttribute('for', todo.todoId);
   $label.setAttribute('class', 'form-check-label flex-grow-1 ml-2');
   $label.textContent = todo.task;
-
   $todo.append($formCheck);
   $formCheck.appendChild($checkbox);
   $formCheck.appendChild($label);
-
   return $todo;
 }

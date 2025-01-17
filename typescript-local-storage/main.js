@@ -10,6 +10,7 @@ $todoForm.addEventListener('submit', (event) => {
     isCompleted: false,
   };
   todos.push(todo);
+  writeTodos();
   $todoList.appendChild(renderTodo(todo));
   $todoForm.reset();
 });
@@ -25,7 +26,7 @@ $todoList.addEventListener('change', (event) => {
       break; // break exists the if and the loop together
     }
   }
-  writeTodos();
+  // writeTodos();
 });
 for (let i = 0; i < todos.length; i++) {
   const $todo = renderTodo(todos[i]);

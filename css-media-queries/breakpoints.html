@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Media Queries - Breakpoints</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="pokemon.css" />
+    <style>
+      /* parent container contains parent properties like  display: flex and  flex-wrap: wrap; */
+      #card-deck {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* default for smaller screen's devices because flex-basis is 100% or always 100% relative(responsive width)
+      not a pixel or fixed not a responsive width*/
+      /* .card-wrapper is the container holding each image */
+      /* it will show one column or object in screen on the max width of 420px, when it greater it
+      will fit more objects */
+      /* @media (max-width:420px)
+      {
+        .card-wrapper {
+          padding: 0.5rem;
+          flex-basis: 100%;
+        }
+      } */
+      .card-wrapper {
+        padding: 0.5rem;
+        flex-basis: 100%;
+      }
+
+      /* your code here 👇 */
+      /* if its greater or equal 575px apply this ruleset */
+      /* the browser doesn't allow us to go narrower than 576 pixels */
+      /* unable to go to phone screen */
+      @media screen and (min-width: 600px) {
+        /* in each row we have two columns  */
+        .card-wrapper {
+          flex-basis: 50%;
+        }
+      }
+
+      /* when it reaches the 767px it squeeze three objects or columns in each row */
+      @media screen and (min-width: 767px) {
+        .card-wrapper {
+          flex-basis: calc(100% / 3);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card-deck">
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/001.png" alt="Bulbasaur" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/004.png" alt="Charmander" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/007.png" alt="Squirtle" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/025.png" alt="Pikachu" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/039.png" alt="Jigglypuff" />
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="pokemon-card">
+          <img src="images/104.png" alt="Cubone" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

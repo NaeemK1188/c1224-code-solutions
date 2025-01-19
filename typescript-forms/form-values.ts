@@ -25,5 +25,5 @@ $contactForm.addEventListener('submit', (event: Event) => {
   messageData.email = formElements.email.value;
   messageData.message = formElements.message.value;
   console.log('messageData', messageData);
-  // $contactForm.reset(); resetting the page after submission via javascript
+  $contactForm.reset(); // resetting the page after submission via javascript
 });

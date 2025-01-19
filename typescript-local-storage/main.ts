@@ -15,6 +15,7 @@ $todoForm.addEventListener('submit', (event: Event) => {
     task: $formElements.task.value,
     isCompleted: false,
   };
+  // after each push we are updating local storage
   todos.push(todo);
   writeTodos();
   $todoList.appendChild(renderTodo(todo));
@@ -34,8 +35,8 @@ $todoList.addEventListener('change', (event: Event) => {
       break; // break exists the if and the loop together
     }
   }
-
-  // writeTodos();
+  // updating the local storage after changing the data model
+  writeTodos();
 });
 
 for (let i = 0; i < todos.length; i++) {

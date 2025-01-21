@@ -8,7 +8,7 @@ function getRangeReport(start, end) {
     total: 0,
   };
   let s = start;
-  const e = end;
+  let e = end;
   for (let i = s; i <= e; i++) {
     calc.range.push(i);
   }
@@ -27,9 +27,12 @@ function getRangeReport(start, end) {
   }
   // for (let i = s; i <)
   s = 0;
-  for (let i = s; i <= e; i++) {
-    calc.average = (calc.total + i) / 10;
-  }
+  e = 10;
+  // for (let i = s; i <= e; i++) {
+  //   calc.average = (calc.total + i) / e;
+  //   console.log(calc.average);
+  // }
+  calc.average = calc.total / e;
   return calc;
 }
 console.log(getRangeReport(1, 10));

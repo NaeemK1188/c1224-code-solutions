@@ -1,3 +1,4 @@
+'use strict';
 console.log('...');
 // it output the (...) on webpage
 setTimeout(function () {

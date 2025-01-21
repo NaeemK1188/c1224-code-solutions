@@ -6,13 +6,20 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is a "callback" function?
 
+  its used as parameter in other functions
+
 - Besides adding an event listener callback function to an element or the `document`, what is one way to delay the execution of a JavaScript function until some point in the future?
+  using delay parameter
 
 - How can you set up a function to be called repeatedly without using a loop?
+  using setInterval() function
 
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
 
+  no delay, which is 0 seconds
+
 - What do `setTimeout()` and `setInterval()` return?
+  return void. its just doing a function to us
 
 ## Notes
 

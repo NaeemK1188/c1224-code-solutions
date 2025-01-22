@@ -1,0 +1,14 @@
+label {
+  cursor: pointer;
+}
+
+/* in html the input type is text, but here its checkbox  */
+
+/* if use ='text', it wont meet the css ruleset condition */
+
+/* it looks like css overrides what is in html */
+input[type='checkbox']:checked + label {
+  text-decoration: line-through;
+  opacity: 0.5;
+  font-style: italic;
+}

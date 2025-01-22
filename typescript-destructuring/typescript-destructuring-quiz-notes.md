@@ -12,6 +12,7 @@ Answer the following questions in the provided markdown file before turning in t
 
   ```javascript
   const { prop1, prop2,....} = objectInstance
+  // destructure properties from objectInstance
   const {prop1:variable1, prop2:variable2,..} = objectInstance
   ```
 

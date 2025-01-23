@@ -13,26 +13,29 @@ Answer the following questions in the provided markdown file before turning in t
 - Give at least one use case for each of the commands listed in this exercise.
 
   - `man`
-
+    man cp
   - `cat`
-
+    cat content.txt
   - `ls`
-
+    ls .
   - `pwd`
-
+    pwd
   - `echo`
-
+    echo 'hello'
   - `touch`
-
+    touch newFile.txt
   - `mkdir`
+    mkdir newDir
 
   - `mv`
-
+    mv src.txt dest.txt
   - `rm`
-
+    rm old.txt
   - `cp`
+    cp old.txt new.txt
 
 - What are the three virtues of a great programmer?
+  impatience, laziness, and hubris
 
 ## Notes
 

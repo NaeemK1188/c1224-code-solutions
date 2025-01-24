@@ -1,0 +1,56 @@
+
+  504  man man
+  505  man man
+  506  man cat
+  507  man cat
+  508  cat laziness.txt
+  509  cat hubris.txt
+  510  cat impatience.txt
+  511  cat impatience.txt laziness.txt hubris.txt
+  512  cat impatience.txt laziness.txt hubris.txt > three-virtues.txt
+  513  cat three-virtues.txt
+  514  man ls
+  515  ls
+  516  ls -a
+  517  ls -f
+  518  ls -a -f
+  519  ls lfz-staff/
+  520  ls lfz-staff/ -a -F
+  521  ls -af lfz-staff/ > lfz-staff/content.txt
+  522  cat lfz-staff/content.txt
+  523  man pwd
+  524  pwd
+  525  pwd > i-was-here.txt
+  526  ls
+  527  cat i-was-here.txt
+  528  man echo
+  529  echo 'Hello, world!'
+  530  echo 'Hello, world!' > hello.txt
+  531  ls
+  532  cat hello.txt
+  533  man touch
+  534  touch tag-youte-it.txt
+  535  touch snoot/boop.txt
+  536  ls snoot/
+  537  man mkdir
+  538  mkdir parent
+  539  ls parent/
+  540  mkdir -p parent/child/grandchild
+  541  touch parent/child/grandchild/.gitkeep
+  542  ls -a parent/child//grandchild/
+  543  man mv
+  544  mv pokiemans/ pokemon
+  545  ls pokemon/
+  546  man rm
+  547  rm lol.txt
+  548  ls
+  549  rm -r kill-me/
+  550  ls
+  551  man cp
+  552  cp and-then.txt no-and-then.txt
+  553  ls
+  554  cat and-then.txt
+  555  cat no-and-then.txt
+  556  man history
+  557  history
+  558  history > command-history.txt

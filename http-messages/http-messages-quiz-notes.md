@@ -18,7 +18,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What three things are on the start-line of an HTTP **request** message?
 
-  <method> <request target> <protocol>
+  <method> <protocol> <request target>
 
   1. method like POST
   2. request target or what are targeting in the request like user
@@ -36,13 +36,14 @@ Answer the following questions in the provided markdown file before turning in t
 
   its the first part of the request of response message in communication between
   client and server or the heading
+  the meta-data or description about the message send or response
 
 - Where would you go if you wanted to learn more about a specific HTTP Header?
 
-  ?
+  learn about MDN documentation
 
 - Is a body required for a valid HTTP request or response message?
-  yes its required
+  yes not required only receive status response
 
 ## Notes
 

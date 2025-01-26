@@ -14,7 +14,7 @@ interface Customer {
 }
 
 const v1 = { value: 'Something' };
-let v2 = '';
+const v2 = "''";
 const v3 = undefined;
 const v4 = [3, 5, 7, 9];
 const v5: Customer = {
@@ -46,11 +46,11 @@ v2 && console.log('v1 is truthy');
 // OR looks for first truthy value because it will be true any way
 // first falsy
 
-// if both are true the first true is outputted
-const config1 = v1 || 'default-value'; // output the
-
 // output 'default-value' because both are true not null so it will take first truthy value on the left
 const config2 = 'default-value' || v2;
+
+// if both are true the first true is outputted
+const config1 = v1 || 'default-value';
 
 console.log('configs', config1, config2);
 
@@ -61,7 +61,6 @@ console.log('configs', config1, config2);
 // both are true, so it will take the first truthy value evaluated like OR
 // it will take the second variable if the first one is null or undefined
 const cfg1 = v1 ?? 'default-value';
-v2 = "''";
 // here it will output the v2 not 'default-value' because its not null or undefined. Its falsy empty string
 const cfg2 = v2 ?? 'default-value';
 
@@ -76,12 +75,12 @@ console.log('cfgs', cfg1, cfg2, cfg3);
 // if v1.value == 'something', it evaluates to truthy else falsy;
 // evaluates the first one on the left whether the v1 = null or not
 // const tern1 = (v1.value === 'Something') ? 'truthy' : 'falsy';
-const tern1 = v1.value !== ' ' ? 'truthy' : 'falsy';
+const tern1 = v1 ? 'truthy' : 'falsy';
 
 console.log('terns', tern1);
 
 // assigns the first one on the left
-const tern2 = v2 !== ' ' ? 'falsy' : 'truthy';
+const tern2 = v2 ? 'falsy' : 'truthy';
 console.log('terns', tern1, tern2);
 
 // -----------------------Conditional (ternary) operator (?:)-----------------------------------

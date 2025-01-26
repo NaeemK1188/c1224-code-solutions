@@ -19,7 +19,7 @@ message // this for Promise((resolve,))
   .finally(() => console.log('the request is completed')); // output at the end of the request
 // or console.error(`Error: ${error.message}`))
 
-// or
+// or takeAchance('Noah Khayat).then().catch()
 // message.then((resolve) => {
 //   // console.log("your so lucky");
 //   console.log(resolve);

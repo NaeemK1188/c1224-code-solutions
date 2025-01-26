@@ -7,7 +7,7 @@ const elapsed = (): string =>
   `${Math.round((Date.now() - startTime) / 1000)}s -`;
 
 function throwOnce(): Promise<void>
-{
+{ // change to true to see the 
   return read('foo', true)
     .then((msg) => console.log(elapsed(), 'throwOnce:', msg))
     .catch((error) => console.log(elapsed(), 'throwOnce Error:', error));

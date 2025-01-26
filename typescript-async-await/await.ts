@@ -76,7 +76,7 @@ async function readChained():Promise<void>
   const msg1 = await read(msg);
   console.log(elapsed(), 'readChained2:', msg1 );
   const msg2 = await read(msg1);
-  console.log(elapsed(), 'readChained3', msg2);
+  console.log(elapsed(), 'readChained3:', msg2);
 
 }
 

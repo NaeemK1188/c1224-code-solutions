@@ -41,7 +41,7 @@ async function fetchUsers(): Promise<void> {
     // console.log(response); // here output the status is 200 okay
     // console.log(response.ok); // return true because ok is boolean
     // const data:Data[] = (await response.json()) as Data; //using Data[] to access each index
-    const data = (await response.json()) as UserData;
+    const data = (await response.json()) as UserData[];
     console.log(data); // the output is not organized as the data model on the top when we collapse each array element ?
     // console.log(data[0].company.catchPhrase); // accessing the array data
   } catch (error) {
@@ -150,7 +150,7 @@ async function fetchPokemon(): Promise<void> {
     // we dont need to create an interface for the pokemon. It will output all the properties in each pokemon
     // we only create interface to manipulate data in the
     // do we need to create interface ?
-    const pokemon = (await response.json()) as PokemonData;
+    const pokemon = (await response.json()) as PokemonData[];
 
     console.log(pokemon);
   } catch (error) {

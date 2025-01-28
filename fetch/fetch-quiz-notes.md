@@ -5,7 +5,8 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What does `fetch()` return?
-  return Promise object
+  return Promise object that
+  resolve to a response
 
 - What is the default request method used by `fetch()`?
 

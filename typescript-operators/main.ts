@@ -14,7 +14,7 @@ interface Customer {
 }
 
 const v1 = { value: 'Something' };
-const v2 = "''";
+const v2 = '';
 const v3 = undefined;
 const v4 = [3, 5, 7, 9];
 const v5: Customer = {
@@ -65,7 +65,7 @@ const cfg1 = v1 ?? 'default-value';
 const cfg2 = v2 ?? 'default-value';
 
 const cfg3 = v3 ?? 'default-value';
-console.log('cfgs', cfg1, cfg2, cfg3);
+console.log('cfgs', cfg1, "'" + cfg2 + "'", cfg3);
 
 // -----------------------Nullish coalescing operator(??)-----------------------------------
 

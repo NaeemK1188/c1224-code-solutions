@@ -1,7 +1,7 @@
 'use strict';
 /* eslint-disable no-unused-vars */
 const v1 = { value: 'Something' };
-let v2 = "''";
+const v2 = '';
 const v3 = undefined;
 const v4 = [3, 5, 7, 9];
 const v5 = {
@@ -40,7 +40,7 @@ const cfg1 = v1 ?? 'default-value';
 // here it will output the v2 not 'default-value' because its not null or undefined. Its falsy empty string
 const cfg2 = v2 ?? 'default-value';
 const cfg3 = v3 ?? 'default-value';
-console.log('cfgs', cfg1, cfg2, cfg3);
+console.log('cfgs', cfg1, "'" + cfg2 + "'", cfg3);
 // -----------------------Nullish coalescing operator(??)-----------------------------------
 // -----------------------Conditional (ternary) operator (?:)-----------------------------------
 // evaluates the first one on the left wether the v1 = null or

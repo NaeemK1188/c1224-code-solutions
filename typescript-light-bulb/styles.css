@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 249, 227); /* test color */
+}
+
+.light-bulb {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 26, 255, 0.396);
+  border-radius: 220px;
+  box-shadow: 1px 1px 25px 30px rgba(190, 0, 41, 0.845); /* test color */
+}
+
+.light-bulb.hot {
+  background-color: rgba(
+    255,
+    225,
+    0,
+    0.396
+  ); /* both classes together will apply this color,
+  but if light-bulb class alone the color is blue */
+  box-shadow: 1px 1px 25px 30px rgba(251, 228, 186, 0.845);
+}
+
+.container.hot {
+  background-color: rgb(
+    249,
+    238,
+    222
+  ); /* both classes together will apply this color,
+  but if light-bulb class alone the color is blue */
+}
+
+.light-bulb.dark {
+  background-color: rgb(86, 86, 86);
+  box-shadow: 1px 1px 25px 30px rgba(33, 32, 32, 0.845);
+}
+
+.container.dark {
+  background-color: black;
+}

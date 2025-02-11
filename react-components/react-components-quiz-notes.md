@@ -6,9 +6,15 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is a React component?
 
+  functions that typically take in data
+
 - How do you define a component in React?
 
+  function that exists in standalone file
+
 - How is a component "rendered" (made visible on the browser page)?
+
+  using main.tsx that imports react important files and App.tsx
 
 ## Notes
 

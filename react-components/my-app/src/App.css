@@ -20,6 +20,12 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.milky {
+  width: 800px;
+  height: 500px;
+  object-fit: contain;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

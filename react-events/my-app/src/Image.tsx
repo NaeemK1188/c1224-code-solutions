@@ -1,29 +1,15 @@
-import { useState } from 'react';
 import './Image.css';
 
 type Props = {
-  srcs: string[];
+  src: string;
 };
-export function Image({ srcs }: Props) {
-  const [imageIndex, setImageIndex] = useState(0);
-
-  function handleClick() {
-    if (imageIndex >= srcs.length - 1) {
-      setImageIndex(0);
-    } else {
-      setImageIndex(imageIndex + 1);
-    }
-  }
-
+// {src} is the property name passed by <image function in the App()
+export function Image({ src }: Props) {
   return (
     <div className="d-flex justify-content-center">
       <div className="width-50 ">
-        <img
-          onClick={handleClick}
-          className="image-fill"
-          src={srcs[imageIndex]}
-          alt="space-image"
-        />
+        {/* only displays any image passed by App() */}
+        <img className="image-fill" src={src} alt="space-image" />
       </div>
     </div>
   );

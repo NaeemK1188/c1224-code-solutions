@@ -8,3 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>
 );
+
+const arr: number[] = [12, 13, 55, 66, 77];
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}

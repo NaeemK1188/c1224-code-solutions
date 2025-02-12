@@ -5,23 +5,26 @@ import { Description } from './Description';
 import { Button } from './Button';
 import './App.css';
 
-const src = '/starry-sky.jpeg';
-const caption = 'A Beautiful Image of Space';
-const description = `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-  Aliquam incidunt sit dolorum accusantium sapiente reiciendis maxime dolores ullam delectus,
-  commodi placeat eveniet, quam voluptates facere et magnam architecto quaerat velit voluptas
-  rerum quos asperiores quis in ! Nemo aut aliquam quas dolore quaerat,
-  error numquam odio modi eos vero. Modi nisi eos autem ? Iusto hic impedit aspernatur
-  labore quos nesciunt ? Ad dolore pariatur aperiam nemo, maiores laboriosam quam quod nisi ipsum,
-  dicta sunt laborum similique repellat?`;
+const srcList: string[] = ['/starry-sky.jpeg', '/nfs-heat.jpeg', '/cat_.jpeg'];
+const captionList: string[] = [
+  'A Beautiful Image of Space',
+  'NFS the Heat Theme',
+  'Cat Wearing Glasses',
+];
+const descriptionList: string[] = [
+  'This is the sky of milky way',
+  'A cool racing car in NFS The Heat',
+  'A wonderful cat with glasses',
+];
 
 export default function App() {
   return (
     <>
       <Header text="React Image Bank" />
-      <Image src={src} />
-      <Caption caption={caption} />
-      <Description text={description} />
+      {/* calling image component with an array of sources parameter*/}
+      <Image src={srcList} />
+      <Caption caption={captionList} />
+      <Description text={descriptionList} />
       <Button label="Click for Next Image" />
     </>
   );

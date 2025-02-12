@@ -2,5 +2,9 @@ type Props = {
   label: string;
 };
 export function Button({ label }: Props) {
-  return <button>{label}</button>;
+  function handleClick() {
+    console.log('Button was clicked');
+  }
+
+  return <button onClick={handleClick}>{label}</button>;
 }

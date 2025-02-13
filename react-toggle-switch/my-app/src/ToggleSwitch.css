@@ -1,4 +1,4 @@
-.Container.container-off {
+.Container {
   width: 50px;
   height: 25px;
   border: rgb(33, 33, 33) solid;
@@ -30,7 +30,7 @@
 }
 
 .inactive {
-  transform: translateX(-23px);
+  transform: translateX(0);
 }
 
 .container-off {

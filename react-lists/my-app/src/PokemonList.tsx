@@ -17,5 +17,6 @@ export function PokemonList({ pokedex }: Props) {
       <b>{pokemon.name}</b>
     </li>
   ));
+
   return <ul>{pokemonList}</ul>;
 }

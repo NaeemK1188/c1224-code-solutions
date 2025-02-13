@@ -20,11 +20,6 @@
 
 /* active(on click), but it goes back to original position */
 
-/* .slider.slider-off-on:active {
-  accent-color:white;
-  transform: translateX(-23px);
-} */
-
 .active {
   transform: translateX(23px);
 }

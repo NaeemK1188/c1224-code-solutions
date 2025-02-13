@@ -1,0 +1,51 @@
+.Container.container-off {
+  width: 50px;
+  height: 25px;
+  border: rgb(33, 33, 33) solid;
+  border-width: 1px;
+  border-radius: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+.slider.slider-off-on {
+  width: 23px;
+  height: 22px;
+  border: rgb(33, 33, 33) solid;
+  border-width: 2px;
+  border-radius: 50px;
+  position: absolute;
+  transition: transform 0.3s;
+}
+
+/* active(on click), but it goes back to original position */
+
+/* .slider.slider-off-on:active {
+  accent-color:white;
+  transform: translateX(-23px);
+} */
+
+.active {
+  transform: translateX(23px);
+}
+
+.inactive {
+  transform: translateX(-23px);
+}
+
+.container-off {
+  background-color: rgb(168, 167, 167);
+}
+
+.slider-off-on {
+  background-color: aliceblue;
+}
+
+.container-on {
+  background-color: green;
+}
+
+.off-on {
+  position: relative;
+  left: 60px;
+}

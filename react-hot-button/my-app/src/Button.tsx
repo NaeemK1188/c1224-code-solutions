@@ -25,10 +25,13 @@ export function Button({ label }: Props) {
   }
 
   return (
-    <button
-      onClick={() => setCount(count + 1)}
-      className={`hot-Button ${color}`}>
-      {label}
-    </button>
+    <>
+      <button
+        onClick={() => setCount(count + 1)}
+        className={`hot-Button ${color}`}>
+        {label}
+      </button>
+      <p>count:{count}</p>
+    </>
   );
 }

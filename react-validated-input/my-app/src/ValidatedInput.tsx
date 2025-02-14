@@ -44,9 +44,3 @@ export function ValidatedInput() {
     </div>
   );
 }
-
-// <h1>
-//   Hello World
-//   <FaCheck className="my-check" color="green" />
-//   <CgClose color="red" />
-// </h1>

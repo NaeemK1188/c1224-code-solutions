@@ -1,0 +1,10 @@
+.Prev-btn {
+  border: rgb(94, 93, 93) outset;
+  border-width: 6px;
+  border-radius: revert;
+  font-size: 40px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 6px;
+  width: 140px;
+}

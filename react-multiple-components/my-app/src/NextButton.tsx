@@ -1,5 +1,13 @@
 import './NextButton.css';
 
-export function NextButton() {
-  return <button className="Next-btn">Next</button>;
+type Props = {
+  onClickNext: () => void;
+};
+
+export function NextButton({ onClickNext }: Props) {
+  return (
+    <button onClick={onClickNext} className="Next-btn">
+      Next
+    </button>
+  );
 }

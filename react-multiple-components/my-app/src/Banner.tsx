@@ -1,9 +1,11 @@
 import './Banner.css';
 type Props = {
-  items: string[];
+  item: string;
 };
 
-export function Banner({ items }: Props) {
+// we are receiving one item from the parent
+// then returning one item to parent
+export function Banner({ item }: Props) {
   // const listing = items.map((item) => (
   //   <li>
   //     {item}
@@ -11,5 +13,5 @@ export function Banner({ items }: Props) {
   // ));
   // returns to RotatingBanner.tsx
   // return <ul>{listing}</ul>
-  return <h1 className="banner-h1">{items[0]}</h1>;
+  return <h1 className="banner-h1">{item}</h1>;
 }

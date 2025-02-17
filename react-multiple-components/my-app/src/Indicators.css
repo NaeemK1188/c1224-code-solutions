@@ -9,6 +9,12 @@
   width: 80px;
 }
 
+/* focus makes the botton to stay blue */
+
+/* .btn-indicator:focus {
+  background-color: aqua;
+} */
+
 .indicators-container {
   margin-top: 2px;
 }

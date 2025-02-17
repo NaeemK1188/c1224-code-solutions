@@ -13,7 +13,7 @@ export function RegistrationFormControlled() {
       password: passWord,
     };
 
-    console.log(state);
+    console.log('state:', state);
   }
 
   return (

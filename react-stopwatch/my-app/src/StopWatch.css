@@ -1,0 +1,30 @@
+.hidden {
+  display: none;
+}
+
+.circle {
+  border: black solid;
+  width: 120px;
+  height: 125px;
+
+  /* using % to make it round */
+  border-radius: 50%;
+  background-color: rgb(224, 229, 233);
+}
+
+.counter {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.play-icon {
+  margin-top: 10px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.pause-icon {
+  margin-top: 10px;
+  font-size: larger;
+  cursor: pointer;
+}

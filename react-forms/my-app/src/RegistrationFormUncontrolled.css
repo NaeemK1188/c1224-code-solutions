@@ -1,0 +1,20 @@
+label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+button {
+  border: rgb(194, 192, 192) solid;
+  border-width: 1px;
+  background-color: rgb(236, 234, 233);
+  position: relative;
+  padding: 0;
+  width: 100px;
+  border-radius: 2px;
+  padding-bottom: 3px;
+}
+
+button:active {
+  top: 2px;
+}

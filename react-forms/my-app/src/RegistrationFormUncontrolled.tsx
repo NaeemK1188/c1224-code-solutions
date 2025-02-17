@@ -2,6 +2,8 @@ import { FormEvent } from 'react'; // imported automatically by react when addin
 import './RegistrationFormUncontrolled.css';
 
 export function RegistrationFormUncontrolled() {
+  // we need to declare the event correct type in order to make the form resets after submission
+  // it resets automatically after setting that up
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); // stops the default behavior of submission
     // const eventTarget = event.target as HTMLFormElement;
@@ -16,6 +18,7 @@ export function RegistrationFormUncontrolled() {
     const formObject = Object.fromEntries(formContent.entries());
     // formContent.entries(); it returns all the key value pairs in the form and put in formObject
     // {userName: 'myname', passWord: '12345678'}
+    // console.log(formObject.passWord); output the password
     console.log(formObject);
   }
 

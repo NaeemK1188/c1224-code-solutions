@@ -3,6 +3,9 @@ import { Accordion, Topic } from './Accordion';
 
 const topics: Topic[] = [
   {
+    // they have the to be in the same naming all the objects properties
+    // id is an identifier for each object
+    // properties have to exist in type Topic
     id: 1,
     title: 'Hypertext Markup Language',
     content:

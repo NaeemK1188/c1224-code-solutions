@@ -6,6 +6,7 @@
   text-align: start;
   background-color: rgb(235, 233, 232);
   font-weight: 600;
+  cursor: pointer;
 }
 
 .content {

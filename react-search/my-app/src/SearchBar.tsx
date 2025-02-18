@@ -1,6 +1,14 @@
 import './SearchBar.css';
-// import reactLogo from './assets/react.svg'
 
 export function SearchBar() {
-  return <input className="search-bar" value="" placeholder="search" />;
+  return (
+    <label>
+      <img
+        className="search-magnifier"
+        src="/search-solid.svg"
+        alt="search magnifier"
+      />
+      <input className="search-bar" value="" placeholder="search" />
+    </label>
+  );
 }

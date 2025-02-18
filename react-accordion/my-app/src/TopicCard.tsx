@@ -17,6 +17,8 @@ export function TopicCard({ topic, isOpen, onOpen }: Props) {
       <h2 onClick={onOpen} className="topic">
         {topic.title}
       </h2>
+      {/* if isOpen is true render the topic content on display, else
+      don't render anything */}
       {isOpen && <p className="content">{topic.content}</p>}
     </div>
   );

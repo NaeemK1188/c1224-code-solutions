@@ -21,12 +21,15 @@ export function Accordion({ topics }: Props) {
 
   // we want the parent to render or pushing the html to the dom
   function handleSelect(id: number) {
+    // first if is handling open and close
     if (id === openTopicId) {
       setOpenTopicId(undefined);
     } else {
       setOpenTopicId(id);
     }
   }
+  // we dont execute function definition
+  // when triggering the rerender
 
   return (
     <div>
@@ -57,4 +60,21 @@ export function Accordion({ topics }: Props) {
 
 // when we click on the last one 9, we update the cash and rigger the rerender. we go though the function
 // again since we are re rendering. we go through the loop. we check is open(is topicId(1) === the one we clicked on(openTopicId))
-// no, so keep it close. if yes open it. we keep doing this in the loop until we showing the last one and keeping everything close
+// no, so keep it close. if yes open it.
+
+// Another scenario when the onClick event is triggered. When onClick is event is triggered, we call the arrow function onOpen
+// the onOpen is called. onOpen is in accordion parent component. We execute it. Inside it, it calls handleSelect(topic.id)
+// topic.id is the h1 we clicked on, which is, for example, id 9 from topics given array of objects in the App().
+// The hand handleSelect gets called with the id of the h1 that was clicked and has id 9. Inside if/else
+// (id:9 === openTopicId:undefined) false not executed. Then is else if(id:9 !== openTopicId:undefined) true. then open it by calling
+// setOpenTopicId(id:9). setOpenTopicId 're-render' executes the function 'export function Accordion({ topics }: Props)'.
+// which then update the cache with 9 or update the 'openTopicId' with 9 with useState(9 or id)
+// and trigger the re-render which is calling 'export function Accordion({ topics }: Props)'.
+// the execution skips the function definition because it only executes the function call in order for definition to be executed
+// then goes through return () we execute the loop starting with the first topic object with id 1. Then, isOpen boolean
+// where topic.id(1) !== openTopicId(9) to dont show it, then we check the next one is not equal, so dont open it. The last one is equal
+// so show it. we dont execute the trigger event because its not triggered by a click now everything is close except the last one is
+// open. Now, we click again on object id:9 or the last one to close it. We triggered the on click that calls the onOpen function
+// that calls handleSelect(topic.id) with the same topic.id that was clicked again that is 9. so we go through if statement. Is
+// (id:9 ===openTopicId(9) previously updated ) yes, so make it undefine or close it because undefined doesn't assign any id
+// to the object, so it makes content disappear

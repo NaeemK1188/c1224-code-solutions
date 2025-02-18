@@ -1,0 +1,7 @@
+.container {
+  width: 800px;
+  height: 600px;
+  border: black solid;
+  text-align: start;
+  font-weight: bold;
+}

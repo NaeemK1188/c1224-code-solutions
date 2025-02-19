@@ -1,0 +1,17 @@
+.topic {
+  margin: 1px;
+  border: black solid;
+  padding: 5px;
+  width: 400px;
+  text-align: start;
+  background-color: rgb(235, 233, 232);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.content {
+  border: black solid;
+  width: 410px;
+  margin-top: 0;
+  margin-bottom: 0;
+}

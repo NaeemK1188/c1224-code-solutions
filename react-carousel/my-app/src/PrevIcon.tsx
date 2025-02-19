@@ -1,6 +1,12 @@
 import { SlArrowLeft } from 'react-icons/sl';
 import './PrevIcon.css';
 
-export function PrevIcon() {
-  return <SlArrowLeft className="prev-icon" size="30px" />;
+type Props = {
+  onSelectPrev: () => void;
+};
+
+export function PrevIcon({ onSelectPrev }: Props) {
+  return (
+    <SlArrowLeft onClick={onSelectPrev} className="prev-icon" size="30px" />
+  );
 }

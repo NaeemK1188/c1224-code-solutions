@@ -1,6 +1,12 @@
 import { SlArrowRight } from 'react-icons/sl';
 import './NextIcon.css';
 
-export function NextIcon() {
-  return <SlArrowRight className="next-icon" size="30px" />;
+type Props = {
+  onSelectNext: () => void;
+};
+
+export function NextIcon({ onSelectNext }: Props) {
+  return (
+    <SlArrowRight onClick={onSelectNext} className="next-icon" size="30px" />
+  );
 }

@@ -5,6 +5,7 @@ import { Catalog } from './pages/Catalog';
 import { ProductDetails } from './pages/ProductDetails';
 import { NotFound } from './pages/NotFound';
 
+// having problem after merge
 function App() {
   return (
     <>

@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import './AppDrawer.css';
 import { useState } from 'react';
@@ -21,13 +21,16 @@ export function AppDrawer({ menuItems }: Props) {
   function handleDrawer() {
     console.log('handleDrawer is called', isOpen);
     if (isOpen === true) {
+      // if its open, set it to close when its clicked
+
       setIsOpen(false);
     } else if (isOpen === false) {
-      setIsOpen(true);
+      // if       setIsOpen(true);
     }
   }
 
   // we used the if/else outside so it gets the values updated outside the eventHandler
+
   if (isOpen === true) {
     is_Open = 'is-open';
     textContent = 'Shopping Bazaar';
@@ -55,7 +58,7 @@ export function AppDrawer({ menuItems }: Props) {
         <ul className="menu-items">
           {menuItems.map((menu) => (
             <li key={menu.name} className="menu-item">
-              <Link to={menu.path} className="menu-link">
+              <NavLink to={menu.path} className="menu-link">
                 {menu.name === 'About' ? (
                   <img src="/hylian-emblem.svg" className="item-icon" />
                 ) : (
@@ -63,7 +66,7 @@ export function AppDrawer({ menuItems }: Props) {
                 )}
                 {/* to control the menu names to disappear when closing side nav */}
                 {isOpen === true ? menu.name : ''}
-              </Link>
+              </NavLink>
             </li>
           ))}
         </ul>

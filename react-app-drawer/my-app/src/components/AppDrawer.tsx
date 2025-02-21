@@ -25,7 +25,7 @@ export function AppDrawer({ menuItems }: Props) {
 
       setIsOpen(false);
     } else if (isOpen === false) {
-      // if       setIsOpen(true);
+      setIsOpen(true);
     }
   }
 
@@ -59,13 +59,12 @@ export function AppDrawer({ menuItems }: Props) {
           {menuItems.map((menu) => (
             <li key={menu.name} className="menu-item">
               <NavLink to={menu.path} className="menu-link">
-                {menu.name === 'About' ? (
-                  <img src="/hylian-emblem.svg" className="item-icon" />
-                ) : (
-                  <img src="/catalog.png" className="item-icon" />
-                )}
+                <img src={menu.iconUrl} className="item-icon" />
+
                 {/* to control the menu names to disappear when closing side nav */}
-                {isOpen === true ? menu.name : ''}
+                {/* {isOpen === true ? menu.name : ''} */}
+                {/* or simpler(if its true draw, else no drawing) */}
+                {isOpen && menu.name}
               </NavLink>
             </li>
           ))}

@@ -1,0 +1,20 @@
+.Container {
+  border: rgb(170, 170, 170) outset;
+  background-color: bisque;
+}
+
+.listContainer {
+  list-style-type: none;
+  padding-left: 3px;
+  margin-right: 20px;
+}
+
+.shade {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  /* nothing behind the pointer-events will work  */
+}

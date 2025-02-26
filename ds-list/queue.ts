@@ -77,6 +77,7 @@ export class PriorityQueue<T = unknown> {
    */
   peek(): T | undefined {
     // ? to return undefined when its empty or add if/else
+    // [0] returning the first element
     return this.nodes[0]?.data;
   }
 }

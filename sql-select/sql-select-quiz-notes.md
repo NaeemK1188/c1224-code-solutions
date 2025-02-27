@@ -20,16 +20,21 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What are four comparison operators that can be used in a `where` clause?
 
-  > , <, <= >=, ==
+  > , <, <= >=, = for ==, <> for not equal
 
 - How do you limit the number of rows returned in a result set?
-  using the keyword limit and integer
+  using the keyword limit and integer with number rows
+  for pagination like 10 rows, for exploring data
 
 - How do you retrieve all columns from a database table?
-  using the start operator after select keyword
+  using the star (\*) operator after select keyword
+  always select star
 
 - How do you control the sort order of a result set?
   using order by keyword after from
+  if we have the same prices and we are ordering price, we add another column by
+  using comma
+  primary key is the id
 
 ## Notes
 

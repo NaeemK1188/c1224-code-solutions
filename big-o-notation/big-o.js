@@ -6,7 +6,7 @@ function uniqueLinear(words) {
   for (
     let i = 0; // 1_ * _1 = O(1)
     i < words.length; // _1 * n_ = O(n) executes many times inside the loop
-    i++ // _1 * n_ = O(n) ++ = 1
+    i++ // _1 * n_ = O(n) ++ = O(n)
   ) {
     const word = words[i]; // _1 * n_ = O(n)
     if (!seen[word]) {
@@ -19,7 +19,7 @@ function uniqueLinear(words) {
 } // Big O Notation for uniqueLinear: O(n) = n + n+ n + n + .... = n, n is number of elements in word array
 
 function uniqueQuadratic(words) {
-  const unique = []; // _1 * 1_ = O(?)
+  const unique = []; // _1 * 1_ = O(n)
   for (
     let i = 0; // 1_ * 1_ = O(1)
     i < words.length; // 1_ * n_ = O(n)
@@ -28,7 +28,7 @@ function uniqueQuadratic(words) {
     const word = words[i]; // _1 * n_ = O(n)
     let isUnique = true; // _1 * n_ = O(n)
     for (
-      let c = 0; // _1 * 1_ = O(1)
+      let c = 0; // _1 * 1_ = O(n) This executes n times, once each time through the outer loop.
       c < i; // _1 *n_ = O(n^2)
       c++ // _2 * n_ = O(n^2) because we have n from outer loop and second n from inner loop
     ) {

@@ -40,8 +40,17 @@ test(`Returns a new array of numbers where every entry has been divided by the
 });
 
 test('given divisor. Does not modify the original array.', () => {
+  // The code above creates a new array instance on line 43 and another new
+  // instance on line 44. So input and output will never be the same instance.
+  // Therefore, this test will always pass, even if the divideBy
+  // function is implemented incorrectly.
   const input = divideBy([2, 1, 6, 0], 2);
   const outPut = [1, 0.5, 3, 0];
+
+  // this approach causes an error modifies the original array ?
+  // const input:number[] = [2, 1, 6, 0];
+  // const outPut:number[] = divideBy(input, 2);
+
   // .not.toBe() checks if its not the same reference or not modifying the same array
   // it create new array or instance which is outPut
   expect(input).not.toBe(outPut);

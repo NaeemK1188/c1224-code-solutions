@@ -1,0 +1,13 @@
+ 193 | Burt        | Temple       | 2019-12-03 04:46:39.862896+00
+     194 | Meryl       | Allen        | 2019-12-03 04:46:39.862896+00
+     195 | Jayne       | Silverstone  | 2019-12-03 04:46:39.862896+00
+     196 | Bela        | Walken       | 2019-12-03 04:46:39.862896+00
+     197 | Reese       | West         | 2019-12-03 04:46:39.862896+00
+     198 | Mary        | Keitel       | 2019-12-03 04:46:39.862896+00
+     199 | Julia       | Fawcett      | 2019-12-03 04:46:39.862896+00
+     200 | Thora       | Temple       | 2019-12-03 04:46:39.862896+00
+     201 | Aim555      | Mazrok       | 2025-02-27 23:58:49.19332+00
+     202 | Aim555      | Mazrok       | 2025-02-28 00:03:10.042853+00
+(202 rows)
+
+every time we run the file, it add new entry and display the entire table

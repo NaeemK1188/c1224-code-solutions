@@ -28,6 +28,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - How do you get back the modified row without a separate `select` statement?
   Using returning \* clause
+  we don't specify primary key when we delete, so we add returning \*
 
 - Why did you get an error when trying to delete certain films?
   because the foreign key error that shows the filmId is still referenced from

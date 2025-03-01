@@ -1,0 +1,606 @@
+             street address             |            city            |       district       |             country name              
+----------------------------------------+----------------------------+----------------------+---------------------------------------
+ 47 MySakila Drive                      | Lethbridge                 | Alberta              | Canada
+ 28 MySQL Boulevard                     | Woodridge                  | QLD                  | Australia
+ 23 Workhaven Lane                      | Lethbridge                 | Alberta              | Canada
+ 1411 Lillydale Drive                   | Woodridge                  | QLD                  | Australia
+ 1913 Hanoi Way                         | Sasebo                     | Nagasaki             | Japan
+ 1121 Loja Avenue                       | San Bernardino             | California           | Murica
+ 692 Joliet Street                      | Athenai                    | Attika               | Greece
+ 1566 Inegl Manor                       | Myingyan                   | Mandalay             | Myanmar
+ 53 Idfu Parkway                        | Nantou                     | Nantou               | Taiwan
+ 1795 Santiago de Compostela Way        | Laredo                     | Texas                | Murica
+ 900 Santiago de Compostela Parkway     | Kragujevac                 | Central Serbia       | Yugoslavia
+ 478 Joliet Way                         | Hamilton                   | Hamilton             | New Zealand
+ 613 Korolev Drive                      | Masqat                     | Masqat               | Oman
+ 1531 Sal Drive                         | Esfahan                    | Esfahan              | Iran
+ 1542 Tarlac Parkway                    | Sagamihara                 | Kanagawa             | Japan
+ 808 Bhopal Manor                       | Yamuna Nagar               | Haryana              | India
+ 270 Amroha Parkway                     | Osmaniye                   | Osmaniye             | Turkey
+ 770 Bydgoszcz Avenue                   | Citrus Heights             | California           | Murica
+ 419 Iligan Lane                        | Bhopal                     | Madhya Pradesh       | India
+ 360 Toulouse Parkway                   | Southend-on-Sea            | England              | United Kingdom
+ 270 Toulon Boulevard                   | Elista                     | Kalmykia             | Russian Federation
+ 320 Brest Avenue                       | Kaduna                     | Kaduna               | Nigeria
+ 1417 Lancaster Avenue                  | Kimberley                  | Northern Cape        | South Africa
+ 1688 Okara Way                         | Mardan                     | Nothwest Border Prov | Pakistan
+ 262 A Corua (La Corua) Parkway         | Tangail                    | Dhaka                | Bangladesh
+ 28 Charlotte Amalie Street             | Sal                        | Rabat-Sal-Zammour-Z  | Morocco
+ 1780 Hino Boulevard                    | Liepaja                    | Liepaja              | Latvia
+ 96 Tafuna Way                          | Crdoba                     | Crdoba               | Argentina
+ 934 San Felipe de Puerto Plata Street  | Shikarpur                  | Sind                 | Pakistan
+ 18 Duisburg Boulevard                  | Citt del Vaticano          |                      | Holy See (Vatican City State)
+ 217 Botshabelo Place                   | Davao                      | Southern Mindanao    | Philippines
+ 1425 Shikarpur Manor                   | Munger (Monghyr)           | Bihar                | India
+ 786 Aurora Avenue                      | Shimonoseki                | Yamaguchi            | Japan
+ 1668 Anpolis Street                    | Lungtan                    | Taipei               | Taiwan
+ 33 Gorontalo Way                       | Kamarhati                  | West Bengali         | India
+ 176 Mandaluyong Place                  | Jhansi                     | Uttar Pradesh        | India
+ 127 Purnea (Purnia) Manor              | Alessandria                | Piemonte             | Italy
+ 61 Tama Street                         | Kurashiki                  | Okayama              | Japan
+ 391 Callao Drive                       | Toulouse                   | Midi-Pyrnes          | France
+ 334 Munger (Monghyr) Lane              | Arak                       | Markazi              | Iran
+ 1440 Fukuyama Loop                     | Nanyang                    | Henan                | China
+ 269 Cam Ranh Parkway                   | Chisinau                   | Chisinau             | Moldova
+ 306 Antofagasta Place                  | Vila Velha                 | Esprito Santo        | Brazil
+ 671 Graz Street                        | Nador                      | Oriental             | Morocco
+ 42 Brindisi Place                      | Yerevan                    | Yerevan              | Armenia
+ 1632 Bislig Avenue                     | Pak Kret                   | Nonthaburi           | Thailand
+ 1447 Imus Way                          | Faaa                       | Tahiti               | French Polynesia
+ 1998 Halifax Drive                     | Lipetsk                    | Lipetsk              | Russian Federation
+ 1718 Valencia Street                   | Antofagasta                | Antofagasta          | Chile
+ 46 Pjatigorsk Lane                     | Moscow                     | Moscow (City)        | Russian Federation
+ 686 Garland Manor                      | Juazeiro do Norte          | Cear                 | Brazil
+ 909 Garland Manor                      | Niznekamsk                 | Tatarstan            | Russian Federation
+ 725 Isesaki Place                      | Jedda                      | Mekka                | Saudi Arabia
+ 115 Hidalgo Parkway                    | Omdurman                   | Khartum              | Sudan
+ 1135 Izumisano Parkway                 | Fontana                    | California           | Murica
+ 939 Probolinggo Loop                   | A Corua (La Corua)         | Galicia              | Spain
+ 17 Kabul Boulevard                     | Nagareyama                 | Chiba                | Japan
+ 1964 Allappuzha (Alleppey) Street      | Iwakuni                    | Yamaguchi            | Japan
+ 1697 Kowloon and New Kowloon Loop      | Balaiha                    | Moskova              | Russian Federation
+ 1668 Saint Louis Place                 | Papeete                    | Tahiti               | French Polynesia
+ 943 Tokat Street                       | Vaduz                      | Vaduz                | Liechtenstein
+ 1114 Liepaja Street                    | Kuching                    | Sarawak              | Malaysia
+ 1213 Ranchi Parkway                    | Mysore                     | Karnataka            | India
+ 81 Hodeida Way                         | Jaipur                     | Rajasthan            | India
+ 915 Ponce Place                        | Basel                      | Basel-Stadt          | Switzerland
+ 1717 Guadalajara Lane                  | Saint Louis                | Missouri             | Murica
+ 1214 Hanoi Way                         | Lincoln                    | Nebraska             | Murica
+ 1966 Amroha Avenue                     | Daxian                     | Sichuan              | China
+ 698 Otsu Street                        | Cayenne                    | Cayenne              | French Guiana
+ 1150 Kimchon Manor                     | Malm                       | Skne ln              | Sweden
+ 1586 Guaruj Place                      | Xiangtan                   | Hunan                | China
+ 57 Arlington Manor                     | Shivapuri                  | Madhya Pradesh       | India
+ 1031 Daugavpils Parkway                | Bchar                      | Bchar                | Algeria
+ 1124 Buenaventura Drive                | al-Hawiya                  | Mekka                | Saudi Arabia
+ 492 Cam Ranh Street                    | Baybay                     | Eastern Visayas      | Philippines
+ 89 Allappuzha (Alleppey) Manor         | Taguig                     | National Capital Reg | Philippines
+ 1947 Poos de Caldas Boulevard          | Chiayi                     | Chiayi               | Taiwan
+ 1206 Dos Quebradas Place               | Rio Claro                  | So Paulo             | Brazil
+ 1551 Rampur Lane                       | Changhwa                   | Changhwa             | Taiwan
+ 602 Paarl Street                       | Pavlodar                   | Pavlodar             | Kazakstan
+ 1692 Ede Loop                          | Araatuba                   | So Paulo             | Brazil
+ 936 Salzburg Lane                      | Rae Bareli                 | Uttar Pradesh        | India
+ 586 Tete Way                           | Kamakura                   | Kanagawa             | Japan
+ 1888 Kabul Drive                       | Ife                        | Oyo & Osun           | Nigeria
+ 320 Baiyin Parkway                     | Mahajanga                  | Mahajanga            | Madagascar
+ 927 Baha Blanca Parkway                | Simferopol                 | Krim                 | Ukraine
+ 929 Tallahassee Loop                   | Springs                    | Gauteng              | South Africa
+ 125 Citt del Vaticano Boulevard        | Atlixco                    | Puebla               | Mexico
+ 1557 Ktahya Boulevard                  | Bradford                   | England              | United Kingdom
+ 870 Ashqelon Loop                      | Songkhla                   | Songkhla             | Thailand
+ 1740 Portoviejo Avenue                 | Sincelejo                  | Sucre                | Colombia
+ 1942 Ciparay Parkway                   | Cheju                      | Cheju                | South Korea
+ 1926 El Alto Avenue                    | La Plata                   | Buenos Aires         | Argentina
+ 1952 Chatsworth Drive                  | Meixian                    | Guangdong            | China
+ 1370 Le Mans Avenue                    | Bandar Seri Begawan        | Brunei and Muara     | Brunei
+ 984 Effon-Alaiye Avenue                | Goinia                     | Gois                 | Brazil
+ 832 Nakhon Sawan Manor                 | Zalantun                   | Inner Mongolia       | China
+ 152 Kitwe Parkway                      | Bislig                     | Caraga               | Philippines
+ 1697 Tanauan Lane                      | Pathankot                  | Punjab               | India
+ 1308 Arecibo Way                       | Augusta-Richmond County    | Georgia              | Murica
+ 1599 Plock Drive                       | Tete                       | Tete                 | Mozambique
+ 669 Firozabad Loop                     | al-Ayn                     | Abu Dhabi            | United Arab Emirates
+ 588 Vila Velha Manor                   | Kimchon                    | Kyongsangbuk         | South Korea
+ 1913 Kamakura Place                    | Jelets                     | Lipetsk              | Russian Federation
+ 733 Mandaluyong Place                  | Abha                       | Asir                 | Saudi Arabia
+ 659 Vaduz Drive                        | Ashdod                     | Ha Darom             | Israel
+ 1177 Jelets Way                        | Ilorin                     | Kwara & Kogi         | Nigeria
+ 1386 Yangor Avenue                     | Toulon                     | Provence-Alpes-Cte   | France
+ 454 Nakhon Sawan Boulevard             | Funafuti                   | Funafuti             | Tuvalu
+ 1867 San Juan Bautista Tuxtepec Avenue | Ivanovo                    | Ivanovo              | Russian Federation
+ 1532 Dzerzinsk Way                     | Merlo                      | Buenos Aires         | Argentina
+ 1002 Ahmadnagar Manor                  | Huixquilucan               | Mxico                | Mexico
+ 682 Junan Way                          | Klerksdorp                 | North West           | South Africa
+ 804 Elista Drive                       | Enshi                      | Hubei                | China
+ 1378 Alvorada Avenue                   | Caracas                    | Distrito Federal     | Venezuela
+ 793 Cam Ranh Avenue                    | Lancaster                  | California           | Murica
+ 1079 Tel Aviv-Jaffa Boulevard          | Cuman                      | Sucre                | Venezuela
+ 442 Rae Bareli Place                   | Duisburg                   | Nordrhein-Westfalen  | Germany
+ 1107 Nakhon Sawan Avenue               | Nezahualcyotl              | Mxico                | Mexico
+ 544 Malm Parkway                       | Pemalang                   | Central Java         | Indonesia
+ 1967 Sincelejo Place                   | Gandhinagar                | Gujarat              | India
+ 333 Goinia Way                         | Grand Prairie              | Texas                | Murica
+ 1987 Coacalco de Berriozbal Loop       | Shubra al-Khayma           | al-Qalyubiya         | Egypt
+ 241 Mosul Lane                         | Dos Quebradas              | Risaralda            | Colombia
+ 211 Chiayi Drive                       | Etawah                     | Uttar Pradesh        | India
+ 1175 Tanauan Way                       | Lima                       | Lima                 | Peru
+ 117 Boa Vista Way                      | Varanasi (Benares)         | Uttar Pradesh        | India
+ 848 Tafuna Manor                       | Ktahya                     | Ktahya               | Turkey
+ 569 Baicheng Lane                      | Boksburg                   | Gauteng              | South Africa
+ 1666 Qomsheh Drive                     | Po                         | So Paulo             | Brazil
+ 801 Hagonoy Drive                      | Smolensk                   | Smolensk             | Russian Federation
+ 1050 Garden Grove Avenue               | Jastrzebie-Zdrj            | Slaskie              | Poland
+ 1854 Tieli Street                      | Liaocheng                  | Shandong             | China
+ 758 Junan Lane                         | guas Lindas de Gois        | Gois                 | Brazil
+ 1752 So Leopoldo Parkway               | Mukateve                   | Taka-Karpatia        | Ukraine
+ 898 Belm Manor                         | Botshabelo                 | Free State           | South Africa
+ 261 Saint Louis Way                    | Torren                     | Coahuila de Zaragoza | Mexico
+ 765 Southampton Drive                  | Qalyub                     | al-Qalyubiya         | Egypt
+ 943 Johannesburg Avenue                | Pune                       | Maharashtra          | India
+ 788 Atinsk Street                      | Hubli-Dharwad              | Karnataka            | India
+ 1749 Daxian Place                      | Apeldoorn                  | Gelderland           | Netherlands
+ 1587 Sullana Lane                      | Hohhot                     | Inner Mongolia       | China
+ 1029 Dzerzinsk Manor                   | Touliu                     | Ynlin                | Taiwan
+ 1666 Beni-Mellal Place                 | Clarksville                | Tennessee            | Murica
+ 928 Jaffna Loop                        | Fukuyama                   | Hiroshima            | Japan
+ 483 Ljubertsy Parkway                  | Dundee                     | Scotland             | United Kingdom
+ 374 Bat Yam Boulevard                  | Kilis                      | Kilis                | Turkey
+ 1027 Songkhla Manor                    | Molodetno                  | Minsk                | Belarus
+ 999 Sanaa Loop                         | Soshanguve                 | Gauteng              | South Africa
+ 879 Newcastle Way                      | Sterling Heights           | Michigan             | Murica
+ 1337 Lincoln Parkway                   | Urawa                      | Saitama              | Japan
+ 1952 Pune Lane                         | Saint-Denis                | Saint-Denis          | Runion
+ 782 Mosul Street                       | Brockton                   | Massachusetts        | Murica
+ 781 Shimonoseki Drive                  | Hidalgo                    | Michoacn de Ocampo   | Mexico
+ 1560 Jelets Boulevard                  | Laiwu                      | Shandong             | China
+ 1963 Moscow Place                      | Nagaon                     | Assam                | India
+ 456 Escobar Way                        | Jakarta                    | Jakarta Raya         | Indonesia
+ 798 Cianjur Avenue                     | Yuncheng                   | Shanxi               | China
+ 185 Novi Sad Place                     | Bern                       | Bern                 | Switzerland
+ 1367 Yantai Manor                      | Ondo                       | Ondo & Ekiti         | Nigeria
+ 369 Papeete Way                        | Greensboro                 | North Carolina       | Murica
+ 1440 Compton Place                     | Linz                       | North Austria        | Austria
+ 1623 Baha Blanca Manor                 | Ljubertsy                  | Moskova              | Russian Federation
+ 97 Shimoga Avenue                      | Tel Aviv-Jaffa             | Tel Aviv             | Israel
+ 1740 Le Mans Loop                      | Le Mans                    | Pays de la Loire     | France
+ 1287 Xiangfan Boulevard                | Kakamigahara               | Gifu                 | Japan
+ 842 Salzburg Lane                      | Tarsus                     | Adana                | Turkey
+ 154 Tallahassee Loop                   | Hami                       | Xinxiang             | China
+ 710 San Felipe del Progreso Avenue     | Lilongwe                   | Lilongwe             | Malawi
+ 1540 Wroclaw Drive                     | Chandrapur                 | Maharashtra          | India
+ 475 Atinsk Way                         | Jinchang                   | Gansu                | China
+ 1294 Firozabad Drive                   | Pingxiang                  | Jiangxi              | China
+ 1877 Ezhou Lane                        | Udaipur                    | Rajasthan            | India
+ 316 Uruapan Street                     | Ipoh                       | Perak                | Malaysia
+ 29 Pyongyang Loop                      | Batman                     | Batman               | Turkey
+ 1010 Klerksdorp Way                    | Graz                       | Steiermark           | Austria
+ 1848 Salala Boulevard                  | Ocumare del Tuy            | Miranda              | Venezuela
+ 431 Xiangtan Avenue                    | Allappuzha (Alleppey)      | Kerala               | India
+ 757 Rustenburg Avenue                  | Skikda                     | Skikda               | Algeria
+ 146 Johannesburg Way                   | Matamoros                  | Tamaulipas           | Mexico
+ 1891 Rizhao Boulevard                  | Santa Brbara dOeste        | So Paulo             | Brazil
+ 1089 Iwatsuki Avenue                   | Kirovo-Tepetsk             | Kirov                | Russian Federation
+ 1410 Benin City Parkway                | Pereira                    | Risaralda            | Colombia
+ 682 Garden Grove Place                 | Memphis                    | Tennessee            | Murica
+ 533 al-Ayn Boulevard                   | Compton                    | California           | Murica
+ 1839 Szkesfehrvr Parkway               | Luzinia                    | Gois                 | Brazil
+ 741 Ambattur Manor                     | s-Hertogenbosch            | Noord-Brabant        | Netherlands
+ 927 Barcelona Street                   | Shahr-e Kord               | Chaharmahal va Bakht | Iran
+ 435 0 Way                              | Haldia                     | West Bengali         | India
+ 140 Chiayi Parkway                     | Sumy                       | Sumy                 | Ukraine
+ 1166 Changhwa Street                   | Bayugan                    | Caraga               | Philippines
+ 891 Novi Sad Manor                     | Oshawa                     | Ontario              | Canada
+ 605 Rio Claro Parkway                  | Tabora                     | Tabora               | Tanzania
+ 1077 San Felipe de Puerto Plata Place  | Novoterkassk               | Rostov-na-Donu       | Russian Federation
+ 9 San Miguel de Tucumn Manor           | Firozabad                  | Uttar Pradesh        | India
+ 447 Surakarta Loop                     | Kisumu                     | Nyanza               | Kenya
+ 345 Oshawa Boulevard                   | Hino                       | Tokyo-to             | Japan
+ 1792 Valle de la Pascua Place          | Siegen                     | Nordrhein-Westfalen  | Germany
+ 1074 Binzhou Manor                     | Mannheim                   | Baden-Wrttemberg     | Germany
+ 817 Bradford Loop                      | Changzhou                  | Jiangsu              | China
+ 955 Bamenda Way                        | Ikerre                     | Ondo & Ekiti         | Nigeria
+ 1149 A Corua (La Corua) Boulevard      | Haiphong                   | Haiphong             | Vietnam
+ 387 Mwene-Ditu Drive                   | Ashgabat                   | Ahal                 | Turkmenistan
+ 68 Molodetno Manor                     | Witten                     | Nordrhein-Westfalen  | Germany
+ 642 Nador Drive                        | Bhusawal                   | Maharashtra          | India
+ 1688 Nador Lane                        | Gorontalo                  | Sulawesi Utara       | Indonesia
+ 1215 Pyongyang Parkway                 | Usak                       | Usak                 | Turkey
+ 1679 Antofagasta Street                | Ciudad del Este            | Alto Paran           | Paraguay
+ 1304 s-Hertogenbosch Way               | Blumenau                   | Santa Catarina       | Brazil
+ 850 Salala Loop                        | Nuuk                       | Kitaa                | Greenland
+ 624 Oshawa Boulevard                   | Balurghat                  | West Bengali         | India
+ 43 Dadu Avenue                         | Bhilwara                   | Rajasthan            | India
+ 751 Lima Loop                          | Aden                       | Aden                 | Yemen
+ 1333 Haldia Street                     | Fuyu                       | Jilin                | China
+ 660 Jedda Boulevard                    | Bellevue                   | Washington           | Murica
+ 1001 Miyakonojo Lane                   | Taizz                      | Taizz                | Yemen
+ 226 Brest Manor                        | Sunnyvale                  | California           | Murica
+ 1229 Valencia Parkway                  | Stara Zagora               | Haskovo              | Bulgaria
+ 1201 Qomsheh Manor                     | Aparecida de Goinia        | Gois                 | Brazil
+ 866 Shivapuri Manor                    | Sambhal                    | Uttar Pradesh        | India
+ 1168 Najafabad Parkway                 | Kabul                      | Kabol                | Afghanistan
+ 1244 Allappuzha (Alleppey) Place       | Vicente Lpez               | Buenos Aires         | Argentina
+ 1842 Luzinia Boulevard                 | Zanzibar                   | Zanzibar West        | Tanzania
+ 1926 Gingoog Street                    | Syrakusa                   | Sisilia              | Italy
+ 810 Palghat (Palakkad) Boulevard       | Jaroslavl                  | Jaroslavl            | Russian Federation
+ 1820 Maring Parkway                    | Mandi Bahauddin            | Punjab               | Pakistan
+ 60 Poos de Caldas Street               | Jodhpur                    | Rajasthan            | India
+ 1014 Loja Manor                        | Ambattur                   | Tamil Nadu           | India
+ 201 Effon-Alaiye Way                   | Asuncin                    | Asuncin              | Paraguay
+ 430 Alessandria Loop                   | Saarbrcken                 | Saarland             | Germany
+ 754 Valencia Place                     | Phnom Penh                 | Phnom Penh           | Cambodia
+ 356 Olomouc Manor                      | Anpolis                    | Gois                 | Brazil
+ 1256 Bislig Boulevard                  | Botosani                   | Botosani             | Romania
+ 954 Kimchon Place                      | Uttarpara-Kotrung          | West Bengali         | India
+ 885 Yingkou Manor                      | Zaria                      | Kaduna               | Nigeria
+ 1736 Cavite Place                      | Idfu                       | Qina                 | Egypt
+ 346 Skikda Parkway                     | Jalib al-Shuyukh           | Hawalli              | Kuwait
+ 98 Stara Zagora Boulevard              | Buenaventura               | Valle                | Colombia
+ 1479 Rustenburg Boulevard              | Tanza                      | Southern Tagalog     | Philippines
+ 647 A Corua (La Corua) Street          | Naju                       | Chollanam            | South Korea
+ 1964 Gijn Manor                        | Shimoga                    | Karnataka            | India
+ 47 Syktyvkar Lane                      | Ciomas                     | West Java            | Indonesia
+ 1148 Saarbrcken Parkway                | Iwaki                      | Fukushima            | Japan
+ 1103 Bilbays Parkway                   | Xiangfan                   | Hubei                | China
+ 1246 Boksburg Parkway                  | Qinhuangdao                | Hebei                | China
+ 1483 Pathankot Street                  | San Miguel de Tucumn       | Tucumn               | Argentina
+ 582 Papeete Loop                       | Lapu-Lapu                  | Central Visayas      | Philippines
+ 300 Junan Street                       | Uijongbu                   | Kyonggi              | South Korea
+ 829 Grand Prairie Way                  | Maring                     | Paran                | Brazil
+ 1473 Changhwa Parkway                  | Coacalco de Berriozbal     | Mxico                | Mexico
+ 1309 Weifang Street                    | Tallahassee                | Florida              | Murica
+ 1760 Oshawa Manor                      | Tianjin                    | Tianjin              | China
+ 786 Stara Zagora Way                   | Oyo                        | Oyo & Osun           | Nigeria
+ 1966 Tonghae Street                    | Halle/Saale                | Anhalt Sachsen       | Germany
+ 1497 Yuzhou Drive                      | London                     | England              | United Kingdom
+ 752 Ondo Loop                          | Miyakonojo                 | Miyazaki             | Japan
+ 1338 Zalantun Lane                     | Poos de Caldas             | Minas Gerais         | Brazil
+ 127 Iwakuni Boulevard                  | Hagonoy                    | Central Luzon        | Philippines
+ 51 Laredo Avenue                       | Monywa                     | Sagaing              | Myanmar
+ 771 Yaound Manor                       | Beira                      | Sofala               | Mozambique
+ 532 Toulon Street                      | Santiago de los Caballeros | Santiago             | Dominican Republic
+ 1027 Banjul Place                      | Halisahar                  | West Bengali         | India
+ 1158 Mandi Bahauddin Parkway           | Datong                     | Shanxi               | China
+ 862 Xintai Lane                        | Tuguegarao                 | Cagayan Valley       | Philippines
+ 816 Cayenne Parkway                    | Portoviejo                 | Manab                | Ecuador
+ 1831 Nam Dinh Loop                     | Mandaluyong                | National Capital Reg | Philippines
+ 446 Kirovo-Tepetsk Lane                | Higashiosaka               | Osaka                | Japan
+ 682 Halisahar Place                    | Olomouc                    | Severn Morava        | Czech Republic
+ 1587 Loja Manor                        | Salzburg                   | Salzburg             | Austria
+ 1762 Paarl Parkway                     | Lengshuijiang              | Hunan                | China
+ 1519 Ilorin Place                      | Palghat (Palakkad)         | Kerala               | India
+ 920 Kumbakonam Loop                    | Salinas                    | California           | Murica
+ 906 Goinia Way                         | Kalisz                     | Wielkopolskie        | Poland
+ 1675 Xiangfan Manor                    | Kumbakonam                 | Tamil Nadu           | India
+ 85 San Felipe de Puerto Plata Drive    | Yantai                     | Shandong             | China
+ 144 South Hill Loop                    | Salamanca                  | Guanajuato           | Mexico
+ 1884 Shikarpur Avenue                  | Karnal                     | Haryana              | India
+ 1980 Kamjanets-Podilskyi Street        | Peoria                     | Illinois             | Murica
+ 1944 Bamenda Way                       | Warren                     | Michigan             | Murica
+ 556 Baybay Manor                       | Ogbomosho                  | Oyo & Osun           | Nigeria
+ 457 Tongliao Loop                      | Inegl                      | Bursa                | Turkey
+ 600 Bradford Street                    | Tabriz                     | East Azerbaidzan     | Iran
+ 1006 Santa Brbara dOeste Manor         | Owo                        | Ondo & Ekiti         | Nigeria
+ 1308 Sumy Loop                         | Fuzhou                     | Fujian               | China
+ 1405 Chisinau Place                    | Ponce                      | Ponce                | Puerto Rico
+ 226 Halifax Street                     | Korla                      | Xinxiang             | China
+ 1279 Udine Parkway                     | Benin City                 | Edo & Delta          | Nigeria
+ 1336 Benin City Drive                  | Otsu                       | Shiga                | Japan
+ 1155 Liaocheng Place                   | Effon-Alaiye               | Oyo & Osun           | Nigeria
+ 1993 Tabuk Lane                        | Tambaram                   | Tamil Nadu           | India
+ 86 Higashiosaka Lane                   | Valle de Santiago          | Guanajuato           | Mexico
+ 1912 Allende Manor                     | Kowloon and New Kowloon    | Kowloon and New Kowl | Hong Kong
+ 544 Tarsus Boulevard                   | Valle de la Pascua         | Gurico               | Venezuela
+ 1936 Cuman Avenue                      | Roanoke                    | Virginia             | Murica
+ 1192 Tongliao Street                   | Sharja                     | Sharja               | United Arab Emirates
+ 44 Najafabad Way                       | Donostia-San Sebastin      | Baskimaa             | Spain
+ 32 Pudukkottai Lane                    | Dayton                     | Ohio                 | Murica
+ 661 Chisinau Lane                      | Kolpino                    | Pietari              | Russian Federation
+ 951 Stara Zagora Manor                 | Patiala                    | Punjab               | India
+ 922 Vila Velha Loop                    | Ahmadnagar                 | Maharashtra          | India
+ 898 Jining Lane                        | Oulu                       | Pohjois-Pohjanmaa    | Finland
+ 1635 Kuwana Boulevard                  | Hiroshima                  | Hiroshima            | Japan
+ 41 El Alto Parkway                     | Parbhani                   | Maharashtra          | India
+ 1883 Maikop Lane                       | Kaliningrad                | Kaliningrad          | Russian Federation
+ 1908 Gaziantep Place                   | Tiefa                      | Liaoning             | China
+ 687 Alessandria Parkway                | Sanaa                      | Sanaa                | Yemen
+ 827 Yuncheng Drive                     | Callao                     | Callao               | Peru
+ 913 Coacalco de Berriozbal Loop        | Arlington                  | Texas                | Murica
+ 715 So Bernardo do Campo Lane          | Sungai Petani              | Kedah                | Malaysia
+ 1354 Siegen Street                     | Angra dos Reis             | Rio de Janeiro       | Brazil
+ 1191 Sungai Petani Boulevard           | Kansas City                | Missouri             | Murica
+ 1224 Huejutla de Reyes Boulevard       | Brescia                    | Lombardia            | Italy
+ 543 Bergamo Avenue                     | Ibirit                     | Minas Gerais         | Brazil
+ 746 Joliet Lane                        | Kursk                      | Kursk                | Russian Federation
+ 780 Kimberley Way                      | Tabuk                      | Tabuk                | Saudi Arabia
+ 1774 Yaound Place                      | Ezhou                      | Hubei                | China
+ 1957 Yantai Lane                       | Sorocaba                   | So Paulo             | Brazil
+ 1542 Lubumbashi Boulevard              | Bat Yam                    | Tel Aviv             | Israel
+ 651 Pathankot Loop                     | Miraj                      | Maharashtra          | India
+ 1359 Zhoushan Parkway                  | Trshavn                    | Streymoyar           | Faroe Islands
+ 1769 Iwaki Lane                        | Bydgoszcz                  | Kujawsko-Pomorskie   | Poland
+ 1145 Vilnius Manor                     | San Felipe del Progreso    | Mxico                | Mexico
+ 1892 Nabereznyje Telny Lane            | Tafuna                     | Tutuila              | American Samoa
+ 470 Boksburg Street                    | Birgunj                    | Central              | Nepal
+ 1427 A Corua (La Corua) Place          | Baha Blanca                | Buenos Aires         | Argentina
+ 479 San Felipe del Progreso Avenue     | Cuautla                    | Morelos              | Mexico
+ 867 Benin City Avenue                  | Yuzhou                     | Henan                | China
+ 981 Kumbakonam Place                   | Braslia                    | Distrito Federal     | Brazil
+ 1016 Iwakuni Street                    | Kingstown                  | St George            | Saint Vincent and the Grenadines
+ 663 Baha Blanca Parkway                | Adana                      | Adana                | Turkey
+ 1860 Taguig Loop                       | Ciparay                    | West Java            | Indonesia
+ 1816 Bydgoszcz Loop                    | Jamalpur                   | Dhaka                | Bangladesh
+ 587 Benguela Manor                     | Aurora                     | Illinois             | Murica
+ 430 Kumbakonam Drive                   | Santa F                    | Santa F              | Argentina
+ 1838 Tabriz Lane                       | Dhaka                      | Dhaka                | Bangladesh
+ 431 Szkesfehrvr Avenue                 | Baku                       | Baki                 | Azerbaijan
+ 503 Sogamoso Loop                      | Sumqayit                   | Sumqayit             | Azerbaijan
+ 507 Smolensk Loop                      | Sousse                     | Sousse               | Tunisia
+ 1920 Weifang Avenue                    | Rampur                     | Uttar Pradesh        | India
+ 124 al-Manama Way                      | Onomichi                   | Hiroshima            | Japan
+ 1443 Mardan Street                     | Paarl                      | Western Cape         | South Africa
+ 1909 Benguela Lane                     | Xinxiang                   | Henan                | China
+ 68 Ponce Parkway                       | Hanoi                      | Hanoi                | Vietnam
+ 1217 Konotop Avenue                    | Ede                        | Gelderland           | Netherlands
+ 1293 Nam Dinh Way                      | Boa Vista                  | Roraima              | Brazil
+ 785 Vaduz Street                       | Mexicali                   | Baja California      | Mexico
+ 1516 Escobar Drive                     | Nukualofa                  | Tongatapu            | Tonga
+ 1628 Nagareyama Lane                   | San Lorenzo                | Central              | Paraguay
+ 1157 Nyeri Loop                        | Maikop                     | Adygea               | Russian Federation
+ 1673 Tangail Drive                     | Daugavpils                 | Daugavpils           | Latvia
+ 381 Kabul Way                          | Hsichuh                    | Taipei               | Taiwan
+ 953 Hodeida Street                     | Imus                       | Southern Tagalog     | Philippines
+ 469 Nakhon Sawan Street                | Teboksary                  | Tuvassia             | Russian Federation
+ 1378 Beira Loop                        | Zeleznogorsk               | Krasnojarsk          | Russian Federation
+ 1641 Changhwa Place                    | Bamenda                    | Nord-Ouest           | Cameroon
+ 1698 Southport Loop                    | Pachuca de Soto            | Hidalgo              | Mexico
+ 519 Nyeri Manor                        | Santo Andr                 | So Paulo             | Brazil
+ 619 Hunuco Avenue                      | Matsue                     | Shimane              | Japan
+ 45 Aparecida de Goinia Place           | Satna                      | Madhya Pradesh       | India
+ 482 Kowloon and New Kowloon Manor      | Bratislava                 | Bratislava           | Slovakia
+ 604 Bern Place                         | Ranchi                     | Jharkhand            | India
+ 1623 Kingstown Drive                   | Almirante Brown            | Buenos Aires         | Argentina
+ 1009 Zanzibar Lane                     | Arecibo                    | Arecibo              | Puerto Rico
+ 114 Jalib al-Shuyukh Manor             | Yaound                     | Centre               | Cameroon
+ 1163 London Parkway                    | Belm                       | Par                  | Brazil
+ 1658 Jastrzebie-Zdrj Loop              | Nyeri                      | Central              | Kenya
+ 817 Laredo Avenue                      | Guadalajara                | Jalisco              | Mexico
+ 1565 Tangail Manor                     | Okinawa                    | Okinawa              | Japan
+ 1912 Emeishan Drive                    | Balikesir                  | Balikesir            | Turkey
+ 230 Urawa Drive                        | Adoni                      | Andhra Pradesh       | India
+ 1922 Miraj Way                         | Najafabad                  | Esfahan              | Iran
+ 433 Florencia Street                   | Jurez                      | Chihuahua            | Mexico
+ 1049 Matamoros Parkway                 | Gulbarga                   | Karnataka            | India
+ 1061 Ede Avenue                        | Cabuyao                    | Southern Tagalog     | Philippines
+ 154 Oshawa Manor                       | Probolinggo                | East Java            | Indonesia
+ 1191 Tandil Drive                      | Tanauan                    | Southern Tagalog     | Philippines
+ 1133 Rizhao Avenue                     | Vitria de Santo Anto       | Pernambuco           | Brazil
+ 1519 Santiago de los Caballeros Loop   | Mwene-Ditu                 | East Kasai           | Congo, The Democratic Republic of the
+ 1618 Olomouc Manor                     | Kurgan                     | Kurgan               | Russian Federation
+ 220 Hidalgo Drive                      | Kermanshah                 | Kermanshah           | Iran
+ 686 Donostia-San Sebastin Lane         | Shenzhen                   | Guangdong            | China
+ 97 Mogiljov Lane                       | Bhavnagar                  | Gujarat              | India
+ 1642 Charlotte Amalie Drive            | Tychy                      | Slaskie              | Poland
+ 1368 Maracabo Boulevard                | South Hill                 |                      | Anguilla
+ 401 Sucre Boulevard                    | Manchester                 | New Hampshire        | Murica
+ 368 Hunuco Boulevard                   | Namibe                     | Namibe               | Angola
+ 500 Lincoln Parkway                    | Huaian                     | Jiangsu              | China
+ 102 Chapra Drive                       | Tama                       | Ibaragi              | Japan
+ 1793 Meixian Place                     | Kamjanets-Podilskyi        | Hmelnytskyi          | Ukraine
+ 514 Ife Way                            | Lubumbashi                 | Shaba                | Congo, The Democratic Republic of the
+ 717 Changzhou Lane                     | Cavite                     | Southern Tagalog     | Philippines
+ 753 Ilorin Avenue                      | Emeishan                   | Sichuan              | China
+ 1337 Mit Ghamr Avenue                  | Nakhon Sawan               | Nakhon Sawan         | Thailand
+ 767 Pyongyang Drive                    | Izumisano                  | Osaka                | Japan
+ 614 Pak Kret Street                    | Addis Abeba                | Addis Abeba          | Ethiopia
+ 954 Lapu-Lapu Way                      | Korolev                    | Moskova              | Russian Federation
+ 331 Bydgoszcz Parkway                  | Gijn                       | Asturia              | Spain
+ 1152 Citrus Heights Manor              | al-Qadarif                 | al-Qadarif           | Sudan
+ 168 Cianjur Manor                      | Iwatsuki                   | Saitama              | Japan
+ 616 Hagonoy Avenue                     | Atinsk                     | Krasnojarsk          | Russian Federation
+ 1190 0 Place                           | Bag                        | Rio Grande do Sul    | Brazil
+ 734 Bchar Place                        | Okara                      | Punjab               | Pakistan
+ 530 Lausanne Lane                      | Dallas                     | Texas                | Murica
+ 454 Patiala Lane                       | Koriyama                   | Fukushima            | Japan
+ 1346 Mysore Drive                      | Brest                      | Bretagne             | France
+ 990 Etawah Loop                        | Valparai                   | Tamil Nadu           | India
+ 1266 Laredo Parkway                    | Omiya                      | Saitama              | Japan
+ 88 Nagaon Manor                        | Tandil                     | Buenos Aires         | Argentina
+ 264 Bhimavaram Manor                   | Charlotte Amalie           | St Thomas            | Virgin Islands, U.S.
+ 1639 Saarbrcken Drive                  | Rustenburg                 | North West           | South Africa
+ 692 Amroha Drive                       | Jaffna                     | Northern             | Sri Lanka
+ 1936 Lapu-Lapu Parkway                 | Deba Habe                  | Bauchi & Gombe       | Nigeria
+ 432 Garden Grove Street                | Richmond Hill              | Ontario              | Canada
+ 1445 Carmen Parkway                    | Cianjur                    | West Java            | Indonesia
+ 791 Salinas Street                     | Hoshiarpur                 | Punjab               | India
+ 126 Acua Parkway                       | Berhampore (Baharampur)    | West Bengali         | India
+ 397 Sunnyvale Avenue                   | Allende                    | Guanajuato           | Mexico
+ 992 Klerksdorp Loop                    | Amersfoort                 | Utrecht              | Netherlands
+ 966 Arecibo Loop                       | Dadu                       | Sind                 | Pakistan
+ 289 Santo Andr Manor                   | al-Qatif                   | al-Sharqiya          | Saudi Arabia
+ 437 Chungho Drive                      | San Felipe de Puerto Plata | Puerto Plata         | Dominican Republic
+ 1948 Bayugan Parkway                   | Katihar                    | Bihar                | India
+ 1866 al-Qatif Avenue                   | El Monte                   | California           | Murica
+ 1661 Abha Drive                        | Pudukkottai                | Tamil Nadu           | India
+ 1557 Cape Coral Parkway                | Laohekou                   | Hubei                | China
+ 1727 Matamoros Place                   | Sawhaj                     | Sawhaj               | Egypt
+ 1269 Botosani Manor                    | Shanwei                    | Guangdong            | China
+ 355 Vitria de Santo Anto Way           | San Juan Bautista Tuxtepec | Oaxaca               | Mexico
+ 1596 Acua Parkway                      | Purnea (Purnia)            | Jharkhand            | India
+ 259 Ipoh Drive                         | Guaruj                     | So Paulo             | Brazil
+ 1823 Hoshiarpur Lane                   | Syktyvkar                  | Komi                 | Russian Federation
+ 1404 Taguig Drive                      | Tsuyama                    | Okayama              | Japan
+ 740 Udaipur Lane                       | Dzerzinsk                  | Nizni Novgorod       | Russian Federation
+ 287 Cuautla Boulevard                  | Sucre                      | Chuquisaca           | Bolivia
+ 1766 Almirante Brown Street            | Newcastle                  | KwaZulu-Natal        | South Africa
+ 596 Huixquilucan Place                 | Naala-Porto                | Nampula              | Mozambique
+ 1351 Aparecida de Goinia Parkway       | Ozamis                     | Northern Mindanao    | Philippines
+ 722 Bradford Lane                      | Junan                      | Shandong             | China
+ 983 Santa F Way                        | Vancouver                  | British Colombia     | Canada
+ 1245 Ibirit Way                        | La Romana                  | La Romana            | Dominican Republic
+ 1836 Korla Parkway                     | Kitwe                      | Copperbelt           | Zambia
+ 231 Kaliningrad Place                  | Bergamo                    | Lombardia            | Italy
+ 495 Bhimavaram Lane                    | Dhule (Dhulia)             | Maharashtra          | India
+ 1924 Shimonoseki Drive                 | Batna                      | Batna                | Algeria
+ 105 Dzerzinsk Manor                    | Tongliao                   | Inner Mongolia       | China
+ 614 Denizli Parkway                    | So Leopoldo                | Rio Grande do Sul    | Brazil
+ 1289 Belm Boulevard                    | Tartu                      | Tartumaa             | Estonia
+ 203 Tambaram Street                    | Escobar                    | Buenos Aires         | Argentina
+ 1704 Tambaram Manor                    | Uluberia                   | West Bengali         | India
+ 207 Cuernavaca Loop                    | Nabereznyje Telny          | Tatarstan            | Russian Federation
+ 319 Springs Loop                       | Erlangen                   | Baijeri              | Germany
+ 956 Nam Dinh Manor                     | Sirjan                     | Kerman               | Iran
+ 1947 Paarl Way                         | Surakarta                  | Central Java         | Indonesia
+ 814 Simferopol Loop                    | El Fuerte                  | Sinaloa              | Mexico
+ 535 Ahmadnagar Manor                   | Abu Dhabi                  | Abu Dhabi            | United Arab Emirates
+ 138 Caracas Boulevard                  | Maracabo                   | Zulia                | Venezuela
+ 251 Florencia Drive                    | Uruapan                    | Michoacn de Ocampo   | Mexico
+ 659 Gatineau Boulevard                 | El Alto                    | La Paz               | Bolivia
+ 1889 Valparai Way                      | Ziguinchor                 | Ziguinchor           | Senegal
+ 1485 Bratislava Place                  | Rockford                   | Illinois             | Murica
+ 935 Aden Boulevard                     | Tegal                      | Central Java         | Indonesia
+ 76 Kermanshah Manor                    | Qomsheh                    | Esfahan              | Iran
+ 734 Tanshui Avenue                     | Florencia                  | Caquet               | Colombia
+ 118 Jaffna Loop                        | Gingoog                    | Northern Mindanao    | Philippines
+ 1621 Tongliao Avenue                   | Usolje-Sibirskoje          | Irkutsk              | Russian Federation
+ 1844 Usak Avenue                       | Halifax                    | Nova Scotia          | Canada
+ 1872 Toulon Loop                       | Rancagua                   | OHiggins             | Chile
+ 1088 Ibirit Place                      | Zapopan                    | Jalisco              | Mexico
+ 1322 Mosul Parkway                     | Dongying                   | Shandong             | China
+ 1447 Chatsworth Place                  | Cuauhtmoc                  | Chihuahua            | Mexico
+ 1257 Guadalajara Street                | Bijapur                    | Karnataka            | India
+ 1469 Plock Lane                        | Ourense (Orense)           | Galicia              | Spain
+ 434 Ourense (Orense) Manor             | Hodeida                    | Hodeida              | Yemen
+ 270 Tambaram Parkway                   | Johannesburg               | Gauteng              | South Africa
+ 1786 Salinas Place                     | Nam Dinh                   | Nam Ha               | Vietnam
+ 1078 Stara Zagora Drive                | Lhokseumawe                | Aceh                 | Indonesia
+ 1854 Okara Boulevard                   | Emmen                      | Drenthe              | Netherlands
+ 421 Yaound Street                      | ostka                      | Sumy                 | Ukraine
+ 1153 Allende Way                       | Gatineau                   | Qubec                | Canada
+ 808 Naala-Porto Parkway                | Stockport                  | England              | United Kingdom
+ 632 Usolje-Sibirskoje Parkway          | Ashqelon                   | Ha Darom             | Israel
+ 98 Pyongyang Boulevard                 | Akron                      | Ohio                 | Murica
+ 984 Novoterkassk Loop                  | Gaziantep                  | Gaziantep            | Turkey
+ 64 Korla Street                        | Mwanza                     | Mwanza               | Tanzania
+ 1785 So Bernardo do Campo Street       | Coatzacoalcos              | Veracruz             | Mexico
+ 698 Jelets Boulevard                   | Denizli                    | Denizli              | Turkey
+ 1297 Alvorada Parkway                  | Yinchuan                   | Ningxia              | China
+ 1909 Dayton Avenue                     | Shaoguan                   | Guangdong            | China
+ 1789 Saint-Denis Parkway               | Acua                       | Coahuila de Zaragoza | Mexico
+ 185 Mannheim Lane                      | Pjatigorsk                 | Stavropol            | Russian Federation
+ 184 Mandaluyong Street                 | La Paz                     | Baja California Sur  | Mexico
+ 591 Sungai Petani Drive                | Okayama                    | Okayama              | Japan
+ 656 Matamoros Drive                    | Sogamoso                   | Boyac                | Colombia
+ 775 ostka Drive                        | Mit Ghamr                  | al-Daqahliya         | Egypt
+ 1013 Tabuk Boulevard                   | Kanchrapara                | West Bengali         | India
+ 319 Plock Parkway                      | Sultanbeyli                | Istanbul             | Turkey
+ 1954 Kowloon and New Kowloon Way       | Robamba                    | Chimborazo           | Ecuador
+ 362 Rajkot Lane                        | Baiyin                     | Gansu                | China
+ 1060 Tandil Lane                       | Rizhao                     | Shandong             | China
+ 1515 Korla Way                         | York                       | England              | United Kingdom
+ 1416 San Juan Bautista Tuxtepec Avenue | Salala                     | Zufar                | Oman
+ 1 Valle de Santiago Avenue             | Brindisi                   | Apulia               | Italy
+ 519 Brescia Parkway                    | Madiun                     | East Java            | Indonesia
+ 414 Mandaluyong Street                 | Lublin                     | Lubelskie            | Poland
+ 1197 Sokoto Boulevard                  | Siliguri (Shiliguri)       | West Bengali         | India
+ 496 Celaya Drive                       | Ueda                       | Nagano               | Japan
+ 786 Matsue Way                         | Joliet                     | Illinois             | Murica
+ 48 Maracabo Place                      | Talavera                   | Central Luzon        | Philippines
+ 1152 al-Qatif Lane                     | Pontianak                  | Kalimantan Barat     | Indonesia
+ 1269 Ipoh Avenue                       | Eskisehir                  | Eskisehir            | Turkey
+ 758 Korolev Parkway                    | Vijayawada                 | Andhra Pradesh       | India
+ 1747 Rustenburg Place                  | Chapra                     | Bihar                | India
+ 886 Tonghae Place                      | Kamyin                     | Volgograd            | Russian Federation
+ 1574 Goinia Boulevard                  | Suihua                     | Heilongjiang         | China
+ 548 Uruapan Street                     | London                     | Ontario              | United Kingdom
+ 962 Tama Loop                          | Yangor                     |                      | Nauru
+ 1778 Gijn Manor                        | Zaoyang                    | Hubei                | China
+ 568 Dhule (Dhulia) Loop                | Coquimbo                   | Coquimbo             | Chile
+ 1768 Udine Loop                        | Battambang                 | Battambang           | Cambodia
+ 608 Birgunj Parkway                    | Chungho                    | Taipei               | Taiwan
+ 680 A Corua (La Corua) Manor           | Sivas                      | Sivas                | Turkey
+ 1949 Sanya Street                      | Isesaki                    | Gumma                | Japan
+ 617 Klerksdorp Place                   | Nha Trang                  | Khanh Hoa            | Vietnam
+ 1993 0 Loop                            | Yingkou                    | Liaoning             | China
+ 1176 Southend-on-Sea Manor             | Santa Rosa                 | Southern Tagalog     | Philippines
+ 600 Purnea (Purnia) Avenue             | Vinh                       | Nghe An              | Vietnam
+ 1003 Qinhuangdao Street                | Purwakarta                 | West Java            | Indonesia
+ 1986 Sivas Place                       | Udine                      | Friuli-Venezia Giuli | Italy
+ 1427 Tabuk Place                       | Cape Coral                 | Florida              | Murica
+ 556 Asuncin Way                        | Mogiljov                   | Mogiljov             | Belarus
+ 486 Ondo Parkway                       | Benguela                   | Benguela             | Angola
+ 635 Brest Manor                        | Bhimavaram                 | Andhra Pradesh       | India
+ 166 Jinchang Street                    | Ezeiza                     | Buenos Aires         | Argentina
+ 958 Sagamihara Lane                    | Kuwana                     | Mie                  | Japan
+ 1817 Livorno Way                       | Cam Ranh                   | Khanh Hoa            | Vietnam
+ 1332 Gaziantep Lane                    | Binzhou                    | Shandong             | China
+ 949 Allende Lane                       | Amroha                     | Uttar Pradesh        | India
+ 195 Ilorin Street                      | NDjamna                    | Chari-Baguirmi       | Chad
+ 193 Bhusawal Place                     | Tonghae                    | Kang-won             | South Korea
+ 43 Vilnius Manor                       | Aurora                     | Colorado             | Murica
+ 183 Haiphong Street                    | Baicheng                   | Jilin                | China
+ 163 Augusta-Richmond County Loop       | Valencia                   | Carabobo             | Venezuela
+ 191 Jos Azueta Parkway                 | Ruse                       | Ruse                 | Bulgaria
+ 379 Lublin Parkway                     | Livorno                    | Toscana              | Italy
+ 1658 Cuman Loop                        | Pangkal Pinang             | Sumatera Selatan     | Indonesia
+ 454 Qinhuangdao Drive                  | Beni-Mellal                | Tadla-Azilal         | Morocco
+ 1715 Okayama Street                    | So Bernardo do Campo       | So Paulo             | Brazil
+ 182 Nukualofa Drive                    | Konotop                    | Sumy                 | Ukraine
+ 390 Wroclaw Way                        | Sanya                      | Hainan               | China
+ 1421 Quilmes Lane                      | Kanazawa                   | Ishikawa             | Japan
+ 947 Trshavn Place                      | Tarlac                     | Central Luzon        | Philippines
+ 1764 Jalib al-Shuyukh Parkway          | Santiago de Compostela     | Galicia              | Spain
+ 346 Cam Ranh Avenue                    | Zhoushan                   | Zhejiang             | China
+ 1407 Pachuca de Soto Place             | Alvorada                   | Rio Grande do Sul    | Brazil
+ 904 Clarksville Drive                  | Haining                    | Zhejiang             | China
+ 1917 Kumbakonam Parkway                | Novi Sad                   | Vojvodina            | Yugoslavia
+ 1447 Imus Place                        | Rajkot                     | Gujarat              | India
+ 1497 Fengshan Drive                    | Chatsworth                 | KwaZulu-Natal        | South Africa
+ 869 Shikarpur Way                      | Southport                  | England              | United Kingdom
+ 1059 Yuncheng Avenue                   | Vilnius                    | Vilna                | Lithuania
+ 505 Madiun Boulevard                   | Wroclaw                    | Dolnoslaskie         | Poland
+ 1741 Hoshiarpur Boulevard              | Bilbays                    | al-Sharqiya          | Egypt
+ 1229 Varanasi (Benares) Manor          | Avellaneda                 | Buenos Aires         | Argentina
+ 1894 Boa Vista Way                     | Garland                    | Texas                | Murica
+ 1342 Sharja Way                        | Sokoto                     | Sokoto & Kebbi & Zam | Nigeria
+ 1342 Abha Boulevard                    | Bucuresti                  | Bukarest             | Romania
+ 415 Pune Avenue                        | Xintai                     | Shandong             | China
+ 1746 Faaa Way                          | Hunuco                     | Huanuco              | Peru
+ 539 Hami Way                           | Tokat                      | Tokat                | Turkey
+ 1407 Surakarta Manor                   | Serpuhov                   | Moskova              | Russian Federation
+ 502 Mandi Bahauddin Parkway            | Barcelona                  | Anzotegui            | Venezuela
+ 1052 Pathankot Avenue                  | Leshan                     | Sichuan              | China
+ 1351 Sousse Lane                       | Monclova                   | Coahuila de Zaragoza | Mexico
+ 1501 Pangkal Pinang Avenue             | Plock                      | Mazowieckie          | Poland
+ 1405 Hagonoy Avenue                    | Czestochowa                | Slaskie              | Poland
+ 521 San Juan Bautista Tuxtepec Place   | Zhezqazghan                | Qaraghandy           | Kazakstan
+ 923 Tangail Boulevard                  | Akishima                   | Tokyo-to             | Japan
+ 186 Skikda Lane                        | Cuernavaca                 | Morelos              | Mexico
+ 1568 Celaya Parkway                    | Fengshan                   | Kaohsiung            | Taiwan
+ 1489 Kakamigahara Lane                 | Tanshui                    | Taipei               | Taiwan
+ 1819 Alessandria Loop                  | Carmen                     | Campeche             | Mexico
+ 1208 Tama Loop                         | Mosul                      | Ninawa               | Iraq
+ 951 Springs Lane                       | Iligan                     | Central Mindanao     | Philippines
+ 760 Miyakonojo Drive                   | Jos Azueta                 | Guerrero             | Mexico
+ 966 Asuncin Way                        | Huejutla de Reyes          | Hidalgo              | Mexico
+ 1584 Ljubertsy Lane                    | Southampton                | England              | United Kingdom
+ 247 Jining Parkway                     | Banjul                     | Banjul               | Gambia
+ 773 Dallas Manor                       | Quilmes                    | Buenos Aires         | Argentina
+ 1923 Stara Zagora Lane                 | Tsaotun                    | Nantou               | Taiwan
+ 1402 Zanzibar Boulevard                | Celaya                     | Guanajuato           | Mexico
+ 1464 Kursk Parkway                     | Weifang                    | Shandong             | China
+ 1074 Sanaa Parkway                     | Loja                       | Loja                 | Ecuador
+ 1759 Niznekamsk Avenue                 | al-Manama                  | al-Manama            | Bahrain
+ 32 Liaocheng Way                       | Juiz de Fora               | Minas Gerais         | Brazil
+ 42 Fontana Avenue                      | Szkesfehrvr                | Fejr                 | Hungary
+ 1895 Zhezqazghan Drive                 | Garden Grove               | California           | Murica
+ 1837 Kaduna Parkway                    | Jining                     | Inner Mongolia       | China
+ 844 Bucuresti Place                    | Jinzhou                    | Liaoning             | China
+ 1101 Bucuresti Boulevard               | Patras                     | West Greece          | Greece
+ 1103 Quilmes Boulevard                 | Sullana                    | Piura                | Peru
+ 1331 Usak Boulevard                    | Lausanne                   | Vaud                 | Switzerland
+ 1325 Fukuyama Street                   | Tieli                      | Heilongjiang         | China
+(602 rows)
+

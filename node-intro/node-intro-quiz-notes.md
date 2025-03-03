@@ -15,9 +15,13 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What are environment variables and how do you access them in Node.js?
   Hold a type of configuration information for the specific environment the process is running in(running on IDE)
+  to run correctly on different environment, where move our code from environment to environment usually is read by the server side
 
 - What is a REPL?
+  R read user input, p print to terminal command executed immediately
   Reads a small bits of typescript in node.js
+  type tsx is typescript but no error or node is javascript
+  Its not gonna be used for experimenting
 
 ## Notes
 

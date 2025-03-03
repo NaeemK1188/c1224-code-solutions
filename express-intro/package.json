@@ -1,0 +1,19 @@
+{
+  "name": "express-intro",
+  "version": "1.0.0",
+  "description": "using express functionality in nodejs server",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx watch server.ts"
+  },
+  "author": "Noah Khayat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.8"
+  }
+}

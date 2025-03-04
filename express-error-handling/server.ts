@@ -1,5 +1,5 @@
 import express from 'express';
-import { errorMiddleware, ClientError } from './lib/index.js';
+import { errorMiddleware, ClientError } from './lib/index.js'; // we need to put the file with extension in node
 
 type Note = {
   noteId: number;
@@ -8,23 +8,28 @@ type Note = {
 
 const app = express();
 
+// we need to pass the error using next to be passed to the next middleware to be handles
+//
 app.get('/api/notes', async (req, res, next) => {
+  // always catch error using try/catch to avoid getting hacked
   try {
     const notes = await readNotes();
     res.send(notes);
   } catch (err) {
     // console.error(err);
     // res.status(500).send({ error: 'an unexpected error occurred' });
-    // why we are doing that instead ?
+    // why we are doing that instead ? because its already written in error-middleware.ts
     next(err); // err is from error-middleware.ts
+    // when passing err in next, this will pass the error to other errorMiddleware to be handled and we put it at te end
   }
 });
 
 app.post('/api/notes', async (req, res, next) => {
   try {
-    const { content } = req.query;
+    const { content } = req.query; // when
 
     if (content === undefined) {
+      // if no content, we will get this error
       // res.status(400).send({ error: 'content is required' });
       // return;
       // (status, message)
@@ -75,9 +80,11 @@ app.put('/api/notes/:noteId', async (req, res, next) => {
   }
 });
 
+// we can make our end-point does whatever we want. this is an endpoint, API or route
 app.delete('/api/notes/:noteId', async (req, res, next) => {
   try {
-    const { noteId } = req.params;
+    // execute the code but be prepared to any error, that will be catch
+    const { noteId } = req.params; // everything after ? in URL
     if (noteId === undefined) {
       // res.status(400).send({ error: 'noteId is required' });
       // return;
@@ -93,7 +100,7 @@ app.delete('/api/notes/:noteId', async (req, res, next) => {
   }
 });
 
-app.use(errorMiddleware);
+app.use(errorMiddleware); // calling errorMiddleware in error-middleware.ts
 
 app.listen(8080, () => {
   console.log('listening on port 8080');

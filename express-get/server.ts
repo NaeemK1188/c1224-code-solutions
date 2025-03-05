@@ -35,7 +35,7 @@ app.get('/api/cities/:cityId', async (req, res, next) => {
   try {
     const { cityId } = req.params;
     if (!Number.isInteger(+cityId) || cityId === undefined) {
-      throw new ClientError(400, 'bad request');
+      throw new ClientError(400, `Non integer cityId:${cityId}`);
     }
     // else
     const sql = `select "cityId", "countries"."name" as "country", "cities"."name"

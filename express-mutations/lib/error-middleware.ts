@@ -8,8 +8,10 @@ export function errorMiddleware(
   // eslint-disable-next-line @typescript-eslint/no-unused-vars -- next must be declared for error middleware
   next: NextFunction
 ): void {
+  // if its client error
   if (err instanceof ClientError) {
     res.status(err.status).json({ error: err.message });
+    // if we have a server error
   } else {
     console.error(err);
     res.status(500).json({ error: 'an unexpected error occurred' });

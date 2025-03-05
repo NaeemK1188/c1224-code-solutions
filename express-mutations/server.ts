@@ -45,7 +45,7 @@ app.post('/api/actors', async (req, res, next) => {
   try {
     console.log('received data:', req.body);
     if (!req.body.firstName || !req.body.lastName) {
-      throw new ClientError(400, 'BAD REQUEST');
+      throw new ClientError(400, 'Missing body request');
     }
     // else
     const sql = `insert into "actors" ("firstName", "lastName")
@@ -113,6 +113,8 @@ app.delete('/api/actors/:actorId', async (req, res, next) => {
       throw new ClientError(404, `actorId:${actorId} NOT FOUND`);
     }
     // else
+    // we are not sending back anything; only the status code NO content, so we
+    // use .sendStatus
     res.sendStatus(204);
   } catch (error) {
     next(error);

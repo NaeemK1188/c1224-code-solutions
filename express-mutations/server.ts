@@ -61,6 +61,64 @@ app.post('/api/actors', async (req, res, next) => {
   }
 });
 
+// responding to request made by client in api endpoint /:actorId
+app.put('/api/actors/:actorId', async (req, res, next) => {
+  try {
+    console.log('Data received', req.body);
+    const { actorId } = req.params;
+    if (!Number.isInteger(+actorId)) {
+      throw new ClientError(400, `non integer actorId: ${actorId}`);
+    }
+
+    if (!req.body.firstName || !req.body.lastName) {
+      throw new ClientError(400, 'missing body request');
+    }
+    // else
+    const sql = `update "actors"
+                 set "firstName" = $2,
+                     "lastName" = $3
+                 where "actorId" = $1 returning *;`;
+    const params = [actorId, req.body.firstName, req.body.lastName];
+    const result = await db.query(sql, params);
+    const actor = result.rows[0];
+    if (!actor) {
+      throw new ClientError(404, `actorId:${actorId} NOT FOUND`);
+    }
+    res.status(200).json(actor);
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.delete('/api/actors/:actorId', async (req, res, next) => {
+  try {
+    // console.log("Data received:", req.body);
+    const { actorId } = req.params;
+
+    if (!Number.isInteger(+actorId)) {
+      throw new ClientError(400, `Non integer actorId:${actorId}`);
+    }
+    // if (!req.body.firstName || !req.body.lastName)
+    // {
+    //   throw new ClientError(400, "Missing body request")
+    // }
+    // else
+    const sql = `DELETE from "actors"
+                 where "actorId" = $1 returning *;`;
+
+    const params = [actorId];
+    const result = await db.query(sql, params);
+    const actor = result.rows[0];
+    if (!actor) {
+      throw new ClientError(404, `actorId:${actorId} NOT FOUND`);
+    }
+    // else
+    res.sendStatus(204);
+  } catch (error) {
+    next(error);
+  }
+});
+
 app.use(errorMiddleware);
 
 app.listen(8080, () => {

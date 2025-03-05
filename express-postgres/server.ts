@@ -46,7 +46,7 @@ app.get('/api/films/:filmId', async (req, res, next) => {
   try {
     const { filmId } = req.params; // params are always strings and because /:filmId is string from line 52
     // client error !Number.isInteger(+filmId) if the number is not integer throw the error
-    if (!Number.isInteger(+filmId) || Number(filmId) < 1) {
+    if (!Number.isInteger(+filmId)) {
       // if film id
       throw new ClientError(400, 'No film id was provided'); // its not outputted when we do films/ ?
     }
@@ -71,7 +71,7 @@ app.put('/api/films/:filmId', async (req, res, next) => {
   try {
     const { filmId } = req.params;
     const { title } = req.query;
-    if (filmId === undefined || Number(filmId) < 1) {
+    if (filmId === undefined || !Number.isInteger(+filmId)) {
       throw new ClientError(400, 'No film ID was provided');
     }
 

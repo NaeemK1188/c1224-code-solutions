@@ -59,8 +59,11 @@ app.post('/api/grades', async (req, res, next) => {
     if (!name || !course || !score) {
       throw new ClientError(400, 'Missing body request');
     }
-    if (!Number.isInteger(+score) || !(+score <= 100 && +score >= 0)) {
-      throw new ClientError(400, `score ${score} is not an integer`);
+    if (!Number.isInteger(score) || !(score <= 100 && score >= 0)) {
+      throw new ClientError(
+        400,
+        `score ${score} is not an integer between 0 and 100`
+      );
     }
     const sql = `insert into "grades" ("name", "course", "score")
                  values ($1, $2, $3 )
@@ -83,8 +86,11 @@ app.put('/api/grades/:gradeId', async (req, res, next) => {
     if (!name || !course || !score) {
       throw new ClientError(400, 'Missing body request');
     }
-    if (!Number.isInteger(+score) || !(+score <= 100 && +score >= 0)) {
-      throw new ClientError(400, `score ${score} is not an integer`);
+    if (!Number.isInteger(score) || !(score <= 100 && score >= 0)) {
+      throw new ClientError(
+        400,
+        `score ${score} is not an integer between 0 and 100`
+      );
     }
     const { gradeId } = req.params;
     if (!Number.isInteger(+gradeId)) {

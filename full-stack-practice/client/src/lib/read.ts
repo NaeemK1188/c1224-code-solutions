@@ -1,4 +1,5 @@
-// using read.ts for API that can be used anywhere and easy to maintain
+// using read.ts for API that can be used anywhere and easy to maintain,
+// so we can use it in catalog.tsx and productDetail.tsx to fetch from API
 // export type Product = {
 //   productId: number;
 //   name: string;

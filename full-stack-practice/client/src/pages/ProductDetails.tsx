@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { readProduct, type Product, toDollars } from '../lib';
+import { toDollars } from '../lib';
 
 export function ProductDetails() {
   const { productId } = useParams();

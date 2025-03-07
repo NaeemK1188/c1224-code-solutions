@@ -13,5 +13,9 @@
     "tsc:client": "tsc --project client",
     "tsc:server": "tsc --project server",
     "tsc": "npm-run-all --continue-on-error tsc:*"
+  },
+  "dependencies": {
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.3.0"
   }
 }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { readCatalog, type Product, toDollars } from '../lib';
+import { toDollars } from '../lib';
 
 export function Catalog() {
   const [products, setProducts] = useState<Product[]>();

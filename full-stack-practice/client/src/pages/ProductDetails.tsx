@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { toDollars } from '../lib';
+import { type Product } from './Catalog';
 
 export function ProductDetails() {
   const { productId } = useParams();
@@ -13,8 +14,15 @@ export function ProductDetails() {
   useEffect(() => {
     async function loadProduct(productId: number) {
       try {
-        const product = await readProduct(productId);
-        setProduct(product);
+        const response = await fetch(`/api/products/${productId}`);
+        if (!response.ok) {
+          throw new Error(`Response status:${response.status}`);
+        }
+
+        // else
+        const responseData = (await response.json()) as Product;
+
+        setProduct(responseData);
       } catch (err) {
         setError(err);
       } finally {
@@ -41,7 +49,9 @@ export function ProductDetails() {
       </div>
     );
   }
-  if (!product) return null;
+  if (!product) {
+    return null;
+  }
   const { name, imageUrl, price, shortDescription, longDescription } = product;
   return (
     <div className="container">

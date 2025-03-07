@@ -2,16 +2,30 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { toDollars } from '../lib';
 
+export type Product = {
+  productId: number;
+  name: string;
+  price: number;
+  imageUrl: string;
+  shortDescription: string;
+  longDescription: string;
+};
+
 export function Catalog() {
-  const [products, setProducts] = useState<Product[]>();
+  const [products, setProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<unknown>();
 
   useEffect(() => {
-    async function load() {
+    async function loadProducts() {
       try {
-        const products = await readCatalog();
-        setProducts(products);
+        const response = await fetch('/api/products');
+        if (!response.ok) {
+          throw new Error(`Response status:${response.status}`);
+        }
+
+        const responseData = (await response.json()) as Product[];
+        setProducts(responseData);
       } catch (err) {
         setError(err);
       } finally {
@@ -19,7 +33,7 @@ export function Catalog() {
       }
     }
     setIsLoading(true);
-    load();
+    loadProducts();
   }, []);
 
   if (isLoading) return <div>Loading...</div>;

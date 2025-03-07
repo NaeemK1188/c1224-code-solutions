@@ -3,7 +3,8 @@ import pg from 'pg';
 import express from 'express';
 import { ClientError, errorMiddleware } from './lib/index.js';
 
-type Todo = {
+// not required, but for adding functions or type error
+type Product = {
   productId: number;
   name: string;
   price: number;
@@ -26,7 +27,7 @@ app.get('/api/products', async (req, res, next) => {
   try {
     const sql = `select * from "products"
                  order by "productId" `;
-    const result = await db.query<Todo>(sql);
+    const result = await db.query<Product>(sql);
     // const result = await db.query(sql);
     res.json(result.rows);
   } catch (err) {

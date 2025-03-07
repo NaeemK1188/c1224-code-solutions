@@ -27,6 +27,7 @@ app.get('/api/products', async (req, res, next) => {
   try {
     const sql = `select * from "products"
                  order by "productId" `;
+    // not necessary to add<type> in query just for type checking
     const result = await db.query<Product>(sql);
     // const result = await db.query(sql);
     res.json(result.rows);

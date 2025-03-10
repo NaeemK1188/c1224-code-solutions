@@ -5,8 +5,6 @@ import argon2 from 'argon2';
 import express from 'express';
 import jwt from 'jsonwebtoken';
 import { ClientError, errorMiddleware, authMiddleware } from './lib/index.js';
-import { Z_PARTIAL_FLUSH } from 'zlib';
-import { send } from 'process';
 
 type User = {
   userId: number;
@@ -62,14 +60,20 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
   }
 });
 
+// we dont use authMiddleware in sign in or sign up
 app.post('/api/auth/sign-in', async (req, res, next) => {
   try {
     // after sending and receiving request body
     const { username, password } = req.body as Partial<Auth>;
+    // const response = req.get('Authorization'); // key 'content-type' from the request or extracting headers
+    // console.log(response); // check the server terminal for output which is application/json
     if (!username || !password) {
       // is this if the body is missing ?
       throw new ClientError(401, 'missing body request');
     }
+    // the select returns the userId and hashed password not the username
+    // the username from the body request
+    // the sql is the response to request from client
     const sql = `select "userId", "hashedPassword" from "users"
                 where "username" = $1;`;
 
@@ -92,10 +96,8 @@ app.post('/api/auth/sign-in', async (req, res, next) => {
     // verifiedPass receives boolean result
     // or
     // verify(password, result.rows[0].hashedPassword) , but according to AI it does matter the order
-    const verifiedPass = await argon2.verify(
-      result.rows[0].hashedPassword,
-      password
-    );
+    // we cannot use (user.hashedPassword) ?
+    const verifiedPass = await argon2.verify(user.hashedPassword, password);
 
     // if the password does not match
     // or if (argon2.verify(password, result.rows[0].hashedPassword))
@@ -104,20 +106,22 @@ app.post('/api/auth/sign-in', async (req, res, next) => {
     }
     // else if password does exist or match
     // extracting the existing userId and the username in the existing users table
+    // we must use the same properties that exist in the users table
     const payload = {
-      user: user.userId,
+      userId: user.userId,
       username, // we don't have username from the response
-      // because we are not selecting i; so we need to use the request's username.
+      // because we are not selecting it in sql query; so we need to use the request's username from the body.
       // note username:username can be username
     };
     const signInToken = jwt.sign(payload, hashKey); // creating token based on userID and username
     // res.json(signInToken);
     // res.json(payload);
     // combining above in one object
+
     res.json({
       token: signInToken,
       user: {
-        userId: payload.user,
+        userId: payload.userId,
         username: payload.username,
       },
     });
@@ -142,14 +146,19 @@ app.post('/api/auth/sign-in', async (req, res, next) => {
   }
 });
 
-app.get('/api/todos', async (req, res, next) => {
+// we can add
+// app.use(authMiddleware)
+// or use it in the middleware parameter area in line below
+// we have an extra parameter in out endpoint in line below
+app.get('/api/todos', authMiddleware, async (req, res, next) => {
   try {
     const sql = `
       select *
         from "todos"
         where "userId" = $1
         order by "todoId"
-    `;
+    `; // here we are selecting the todo from the one user own
+    // (sql, [req.user?.userId]) instead of doing params and destructuring it at the top
     const result = await db.query(sql, [req.user?.userId]);
     res.json(result.rows);
   } catch (err) {
@@ -157,12 +166,18 @@ app.get('/api/todos', async (req, res, next) => {
   }
 });
 
-app.post('/api/todos', async (req, res, next) => {
+// we are adding authMiddleware in every endpoint that wants to access todos or certain todos
+// from database
+// adding new todo to an existing user only certain one but using userId
+// to indicate this todo is mine not to other users
+app.post('/api/todos', authMiddleware, async (req, res, next) => {
   try {
+    // we need to put the task and isCompleted in the body request
     const { task, isCompleted = false } = req.body;
     if (!task || typeof isCompleted !== 'boolean') {
       throw new ClientError(400, 'task and isCompleted are required');
     }
+    // the userId from middleware jwt token, and task, isCompleted from request body
     const sql = `
       insert into "todos" ("userId", "task", "isCompleted")
         values ($1, $2, $3)
@@ -177,7 +192,10 @@ app.post('/api/todos', async (req, res, next) => {
   }
 });
 
-app.put('/api/todos/:todoId', async (req, res, next) => {
+// we are adding authMiddleware in every endpoint that wants to access todos or certain todos
+// from database
+// update the todo and making sure im updating my todo
+app.put('/api/todos/:todoId', authMiddleware, async (req, res, next) => {
   try {
     const todoId = Number(req.params.todoId);
     if (!Number.isInteger(todoId) || todoId < 1) {
@@ -187,6 +205,8 @@ app.put('/api/todos/:todoId', async (req, res, next) => {
     if (typeof isCompleted !== 'boolean') {
       throw new ClientError(400, 'isCompleted (boolean) is required');
     }
+    // the userId comes from the token from the request and other fields come from the body
+    // but the todoId comes from the params from the end point
     const sql = `
       update "todos"
         set "updatedAt" = now(),

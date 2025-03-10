@@ -18,13 +18,17 @@ export function removeAuth(): void {
 
 export function readUser(): User | undefined {
   const auth = localStorage.getItem(authKey);
-  if (!auth) return undefined;
+  if (!auth) {
+    return undefined;
+  }
   return (JSON.parse(auth) as Auth).user;
 }
 
 export function readToken(): string | undefined {
   const auth = localStorage.getItem(authKey);
-  if (!auth) return undefined;
+  if (!auth) {
+    return undefined;
+  }
   return (JSON.parse(auth) as Auth).token;
 }
 
@@ -37,8 +41,16 @@ export type Todo = UnsavedTodo & {
 };
 
 export async function readTodos(): Promise<Todo[]> {
-  const res = await fetch('/api/todos');
-  if (!res.ok) throw new Error(`fetch Error ${res.status}`);
+  // we need the Authorization when we want to read the todos too
+  const req = {
+    headers: {
+      Authorization: `Bearer ${readToken()}`,
+    },
+  };
+  const res = await fetch('/api/todos', req);
+  if (!res.ok) {
+    throw new Error(`fetch Error ${res.status}`);
+  }
   return (await res.json()) as Todo[];
 }
 
@@ -47,11 +59,14 @@ export async function insertTodo(todo: UnsavedTodo): Promise<Todo> {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${readToken()}`,
     },
     body: JSON.stringify(todo),
   };
   const res = await fetch('/api/todos', req);
-  if (!res.ok) throw new Error(`fetch Error ${res.status}`);
+  if (!res.ok) {
+    throw new Error(`fetch Error ${res.status}`);
+  }
   return (await res.json()) as Todo;
 }
 
@@ -60,11 +75,14 @@ export async function updateTodo(todo: Todo): Promise<Todo> {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${readToken()}`,
     },
     body: JSON.stringify(todo),
   };
   const res = await fetch(`/api/todos/${todo.todoId}`, req);
-  if (!res.ok) throw new Error(`fetch Error ${res.status}`);
+  if (!res.ok) {
+    throw new Error(`fetch Error ${res.status}`);
+  }
   return (await res.json()) as Todo;
 }
 
@@ -73,5 +91,7 @@ export async function removeTodo(todoId: number): Promise<void> {
     method: 'DELETE',
   };
   const res = await fetch(`/api/todos/${todoId}`, req);
-  if (!res.ok) throw new Error(`fetch Error ${res.status}`);
+  if (!res.ok) {
+    throw new Error(`fetch Error ${res.status}`);
+  }
 }

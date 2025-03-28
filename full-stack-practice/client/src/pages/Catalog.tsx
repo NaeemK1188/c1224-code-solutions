@@ -16,6 +16,8 @@ export function Catalog() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<unknown>();
 
+  // we use effect when component is first mount on screen
+  // event handler is used for a response to a click
   useEffect(() => {
     async function loadProducts() {
       try {
@@ -40,7 +42,7 @@ export function Catalog() {
   if (error) {
     return (
       <div>
-        Error Loading Catalog:{' '}
+        Error Loading Catalog:
         {error instanceof Error ? error.message : 'Unknown Error'}
       </div>
     );

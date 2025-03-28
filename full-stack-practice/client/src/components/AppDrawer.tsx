@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import './AppDrawer.css';
 import { useState } from 'react';
 
+// this is to make the menuItem dynamic(reusable) using functions
 export type MenuItem = {
   name: string;
   iconUrl: string;

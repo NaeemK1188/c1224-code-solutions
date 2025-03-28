@@ -14,7 +14,9 @@ export function ProductDetails() {
   useEffect(() => {
     async function loadProduct(productId: number) {
       try {
-        const response = await fetch(`/api/products/${productId}`);
+        // we can use /products/${productId}
+        // that path name can be different than the api end point
+        const response = await fetch(`/api/details/${productId}`);
         if (!response.ok) {
           throw new Error(`Response status:${response.status}`);
         }
